@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KalimantanUtara.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Kalimantan Utara</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Apad Runan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_184</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,099 m Kalimantan Utara</description>
+			<LookAt>
+				<longitude>115.5871437</longitude>
+				<latitude>3.450422754</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.5871437,3.450422754,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung North Kalimantan Peak 1964</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_185</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,964 m Kalimantan Utara</description>
+			<LookAt>
+				<longitude>115.2995616</longitude>
+				<latitude>2.175408597</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.2995616,2.175408597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kelembit</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_186</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,890 m Gunung Kelembit, Long Uli, Bahau Hulu, Malinau, East Kalimantan 77562, Indonesia</description>
+			<LookAt>
+				<longitude>115.9179416</longitude>
+				<latitude>2.86048423</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.9179416,2.86048423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Latuk</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_187</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,064 m Gunung Latuk, Long Bena, Pujungan, Malinau, East Kalimantan 77562, Indonesia</description>
+			<LookAt>
+				<longitude>115.6838284</longitude>
+				<latitude>2.881327149</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.6838284,2.881327149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kujat</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_188</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,024 m Gunung Kujat, Long Sului, Kelay, Berau, East Kalimantan 77362, Indonesia</description>
+			<LookAt>
+				<longitude>116.4938138</longitude>
+				<latitude>2.482947705</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>116.4938138,2.482947705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung North Kalimantan Peak 2219</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_189</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,219 m Kalimantan Utara</description>
+			<LookAt>
+				<longitude>115.960743</longitude>
+				<latitude>2.274105</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.960743,2.274105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Harun</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_190</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,169 m Kalimantan Utara</description>
+			<LookAt>
+				<longitude>115.8071164</longitude>
+				<latitude>4.125584744</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.8071164,4.125584744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batu Tiban</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_191</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,050 m Kalimantan Utara</description>
+			<LookAt>
+				<longitude>114.6137977</longitude>
+				<latitude>1.577231547</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.6137977,1.577231547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batu Jumak</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_192</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,250 m Kalimantan Utara</description>
+			<LookAt>
+				<longitude>115.272663</longitude>
+				<latitude>1.819609</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.272663,1.819609,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KalimantanBarat.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Kalimantan Barat</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Penrissen</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_140</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,326 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>110.223819</longitude>
+				<latitude>1.114427</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.223819,1.114427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kelam</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_141</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 940 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>111.652602</longitude>
+				<latitude>0.07557800000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.652602,0.07557800000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Biwa</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_142</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,290 m Gunung Biwa, Sunge Bengaras, Hulu Sungai, Ketapang, West Kalimantan 79585, Indonesia</description>
+			<LookAt>
+				<longitude>110.824576</longitude>
+				<latitude>-0.598783</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.824576,-0.598783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rangga</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_143</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,495 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>111.2370833</longitude>
+				<latitude>-0.686179148</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.2370833,-0.686179148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Merdai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_144</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,410 m Gunung Merdai, Nekan, Entikong, Sanggau, West Kalimantan 78557, Indonesia</description>
+			<LookAt>
+				<longitude>110.250554</longitude>
+				<latitude>0.877556</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.250554,0.877556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lawit</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_145</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,770 m Mt Lawit, Sibau Hulu, North Putussibau, Kapuas Hulu, West Kalimantan 78716, Indonesia</description>
+			<LookAt>
+				<longitude>112.9557952</longitude>
+				<latitude>1.34203923</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.9557952,1.34203923,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bawang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_146</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,438 m Gunung Bawang, Tiga Berkat, Lumar, Bengkayang, West Kalimantan 79283, Indonesia</description>
+			<LookAt>
+				<longitude>109.3854802</longitude>
+				<latitude>0.9110936630000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>109.3854802,0.9110936630000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Berumput</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_147</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,590 m Gunung Berumput, Lundu, Sarawak, Indonesia</description>
+			<LookAt>
+				<longitude>109.668259</longitude>
+				<latitude>1.720705</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>109.668259,1.720705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Niut</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_148</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,701 m Gunung Niut, Tengok Pelaik, Air Besar, Landak, West Kalimantan 79365, Indonesia</description>
+			<LookAt>
+				<longitude>109.933316</longitude>
+				<latitude>1.002538</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>109.933316,1.002538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Palung (Ponti)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_149</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,151 m Gunung Palung, Sedahan Jaya, Sukadana, North Kayong, West Kalimantan 78852, Indonesia</description>
+			<LookAt>
+				<longitude>110.14478973</longitude>
+				<latitude>-1.23344399</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.14478973,-1.23344399,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Cabang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_150</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,030 m Gunung Cabang, Padang, Maya Karimata Island, North Kayong, West Kalimantan 78855, Indonesia</description>
+			<LookAt>
+				<longitude>108.9037595</longitude>
+				<latitude>-1.603402629</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>108.9037595,-1.603402629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Berangin</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_151</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,652 m Gunung Berangin, Meragun, Nanga Taman, Sekadau, West Kalimantan 78662, Indonesia</description>
+			<LookAt>
+				<longitude>111.071639</longitude>
+				<latitude>-0.499844</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.071639,-0.499844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batutenobong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_152</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,594 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>113.2027625</longitude>
+				<latitude>0.449870007</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.2027625,0.449870007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sebayan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_153</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,368 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>110.9887567</longitude>
+				<latitude>-1.106258423</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.9887567,-1.106258423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kerihun</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_154</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,005 m Gunung Kerihun, Long Apari, West Kutai, East Kalimantan 75769, Indonesia</description>
+			<LookAt>
+				<longitude>113.8895475</longitude>
+				<latitude>1.03539597</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.8895475,1.03539597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ngaras</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_155</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,185 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>111.628719</longitude>
+				<latitude>0.913024096</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.628719,0.9130240959999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batuensambang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_156</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,744 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>113.1088366</longitude>
+				<latitude>0.138649846</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.1088366,0.138649846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batu Daya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_157</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 499 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>110.335733</longitude>
+				<latitude>-1.0165</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.335733,-1.0165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Melatai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_158</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,923 m Kalimantan Barat</description>
+			<LookAt>
+				<longitude>113.5679745</longitude>
+				<latitude>1.310469307</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.5679745,1.310469307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Beturan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_159</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,577 m Gunung Baturan, Merah Arai, Kayan Hulu, Sintang, West Kalimantan 78694, Indonesia</description>
+			<LookAt>
+				<longitude>112.442104</longitude>
+				<latitude>-0.057852221</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.442104,-0.057852221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Saran</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_160</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,758 m Gunung Saran, Temawang Bulai, Sepauk, Sintang, West Kalimantan 78662, Indonesia</description>
+			<LookAt>
+				<longitude>111.296857</longitude>
+				<latitude>-0.428503</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.296857,-0.428503,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

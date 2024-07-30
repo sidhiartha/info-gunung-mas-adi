@@ -1,0 +1,290 @@
+<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="basecamp">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<Style id="sn_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<StyleMap id="point pendakian">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_point_pendakian</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_point_pendakian</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur alternatif">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_green_line</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_green_line</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur utama">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_campground">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_campground">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="campground">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="kawah">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="puncak">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_puncak</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_puncak</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_water">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>images/Water_Icon_Small.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_water">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>images/Water_Icon_Small.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="sumber air">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_water</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_water</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	
+	
+	/*Style Gunung*/
+	
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>

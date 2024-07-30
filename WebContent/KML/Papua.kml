@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Papua.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Papua</name>
+		<open>1</open>
+		<Placemark>
+			<name>Osua Annin</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_235</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Osua Annin, Kubialat, Bomela, Yahukimo, Papua 99577, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>140.052222,-4.661944,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jayawijaya Mountains</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_236</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Jayawijaya Mountains, Soline, Soloikma, Yahukimo, Papua 99571, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>139.416667,-4.35,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Mandala</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_237</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 4,760 mPapua</description>
+			<LookAt>
+				<longitude>140.289423</longitude>
+				<latitude>-4.708734</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>140.289423,-4.708734,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pegunungan Hens</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_238</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 4,061 m Papua</description>
+			<LookAt>
+				<longitude>137.3109133</longitude>
+				<latitude>-3.758427482</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>137.3109133,-3.758427482,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Papua Peak 2884</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_239</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,884 m Papua</description>
+			<LookAt>
+				<longitude>136.6059114</longitude>
+				<latitude>-3.301682465</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>136.6059114,-3.301682465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Undundi-Wandandi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_240</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,640 m Undundi-Wandandi, Uwagi, Bogobaida, Paniai, Papua 98769, Indonesia</description>
+			<LookAt>
+				<longitude>136.422699</longitude>
+				<latitude>-3.506698</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>136.422699,-3.506698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Deyjay</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_241</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,340 m Deyjay, Deiyapa, East Kamu, Dogiyai, Papua 98862, Indonesia</description>
+			<LookAt>
+				<longitude>136.1950571</longitude>
+				<latitude>-3.969174673</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>136.1950571,-3.969174673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Legare</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_242</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,332 m Papua</description>
+			<LookAt>
+				<longitude>135.784182</longitude>
+				<latitude>-3.460792027</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>135.784182,-3.460792027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yaramaniapuka</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_243</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,251 m Gunung Jaramaniapuka, Maikotu, West Mapia, Dogiyai, Papua 99973, Indonesia</description>
+			<LookAt>
+				<longitude>135.7408382</longitude>
+				<latitude>-4.099137716</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>135.7408382,-4.099137716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pegunungan Weyland</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_244</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Pegunungan Weyland, Bomomani, Mapia, Dogiyai, Papua 98854, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>135.870833,-3.870833,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kobowre (Wakai)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_245</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,750 m Papua</description>
+			<LookAt>
+				<longitude>135.747063</longitude>
+				<latitude>-3.890573</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>135.747063,-3.890572999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Z Chain</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_246</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,773 m Papua</description>
+			<LookAt>
+				<longitude>136.9233692</longitude>
+				<latitude>-3.633306223</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>136.9233692,-3.633306223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Trikora</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_247</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 4,750 m Puncak Trikora, Trikora, Wamena, Jayawijaya, Papua 99564, Indonesia</description>
+			<LookAt>
+				<longitude>138.6816844</longitude>
+				<latitude>-4.261755874</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>138.6816844,-4.261755874,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Angemuk</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_248</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,949 m Angemuk, Minggen, Bokondini, Tolikara, Papua 99562, Indonesia</description>
+			<LookAt>
+				<longitude>138.591844</longitude>
+				<latitude>-3.524549</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>138.591844,-3.524549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Papua Peak 3856</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_249</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,856 m Papua</description>
+			<LookAt>
+				<longitude>138.25953</longitude>
+				<latitude>-3.586346</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>138.25953,-3.586346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Y Chain</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_250</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,285 m Papua</description>
+			<LookAt>
+				<longitude>137.5600734</longitude>
+				<latitude>-3.558491901</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>137.5600734,-3.558491901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>X Chain</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_251</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>X Chain, Bakusi, Fawi, Puncak Jaya, Papua 98976, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>137.75,-3.350000000000001,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>X Chain</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_252</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,801 m Papua</description>
+			<LookAt>
+				<longitude>137.828295</longitude>
+				<latitude>-3.542415</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>137.828295,-3.542415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jimliek</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_253</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Jimliek, Enggama, Eragayam, Central Mamberamo, Papua 99557, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>138.883333,-3.766667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jimliek</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_254</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,151 m Papua</description>
+			<LookAt>
+				<longitude>138.8259094</longitude>
+				<latitude>-3.802667692</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>138.8259094,-3.802667692,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gauttier</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_255</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,230 m Papua</description>
+			<LookAt>
+				<longitude>138.949307</longitude>
+				<latitude>-2.603778</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>138.949307,-2.603778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cyclops</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_256</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,000 m Papua</description>
+			<LookAt>
+				<longitude>140.509619</longitude>
+				<latitude>-2.508327</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>140.509619,-2.508327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Papua Peak 1566</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_257</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,566 m Papua</description>
+			<LookAt>
+				<longitude>135.0675526</longitude>
+				<latitude>-3.589199995</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>135.0675526,-3.589199995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bukit Buru</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_258</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,322 m Gunung Buru, Potowayburu, Mimika Barat Jauh, Mimika, Papua 99974, Indonesia</description>
+			<LookAt>
+				<longitude>134.9308395</longitude>
+				<latitude>-4.225805516</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>134.9308395,-4.225805516,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamaipiri</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_259</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,047 m Gunung Mamaipiri, Kigamani, Dogiyai, Papua 98857, Indonesia</description>
+			<LookAt>
+				<longitude>135.959272</longitude>
+				<latitude>-4.055780631</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>135.959272,-4.055780631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pegunungan Q</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_260</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,769 m Pegunungan Q, Senggi, Keerom, Papua 99466, Indonesia</description>
+			<LookAt>
+				<longitude>140.6519324</longitude>
+				<latitude>-3.802129483</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>140.6519324,-3.802129483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Yapen</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_261</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,496 m Papua</description>
+			<LookAt>
+				<longitude>136.4282859</longitude>
+				<latitude>-1.770850659</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>136.4282859,-1.770850659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bonsupiori</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_262</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,034 m Gunung Bonsupiori, Fanindi, South Supiori, Supiori, Papua 98161, Indonesia</description>
+			<LookAt>
+				<longitude>135.605609</longitude>
+				<latitude>-0.806819</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>135.605609,-0.806819,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jumbul Ambera</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_263</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Jumbul Ambera, Manda, Wollo, Jayawijaya, Papua 99555, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>138.816667,-3.866667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jumbul Ambera</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_264</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,785 m Papua</description>
+			<LookAt>
+				<longitude>139.0032526</longitude>
+				<latitude>-3.867542189</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>139.0032526,-3.867542189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Valentiyn</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_265</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 4,453 m Pegunungan Valentiyn, Luwemna, Nalca, Yahukimo, Papua 99578, Indonesia</description>
+			<LookAt>
+				<longitude>139.7366863</longitude>
+				<latitude>-4.419200961</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>139.7366863,-4.419200961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Jaya (Carstensz Pyramid)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_266</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 4,884 m Carstensz Pyramid, Tembagapura, Mimika, Papua 98972, Indonesia</description>
+			<LookAt>
+				<longitude>137.185578</longitude>
+				<latitude>-4.083487</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>137.185578,-4.083487,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SumatraUtara.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sumatra Utara</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Sibayak (Pintau)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_360</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,212 m Sibayak, Belinteng, Sei Bingai, Langkat, North Sumatra 20357, Indonesia</description>
+			<LookAt>
+				<longitude>98.50084615999999</longitude>
+				<latitude>3.24750748</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>98.50084615999999,3.24750748,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sinabung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_361</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,450 m Sinabung, Gunung Leuser National Park, Kuta Gugung, Naman Teran, Karo, North Sumatra 22153, Indonesia</description>
+			<LookAt>
+				<longitude>98.39063</longitude>
+				<latitude>3.17142</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>98.39063,3.17142,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sibuatan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_362</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,457 m Gunung Sibuatan, Laksa, Pegagan Hilir, Dairi, North Sumatra 22173, Indonesia</description>
+			<LookAt>
+				<longitude>98.42346000000001</longitude>
+				<latitude>2.91831</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>98.42345999999999,2.91831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pusuk Buhit</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_363</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,982 m Sumatera Utara</description>
+			<LookAt>
+				<longitude>98.654055</longitude>
+				<latitude>2.601029</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>98.654055,2.601029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Samosir</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_364</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,713 m Sumatera Utara</description>
+			<LookAt>
+				<longitude>98.831913</longitude>
+				<latitude>2.640618</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>98.831913,2.640618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pangulubao</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_365</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,199 m Mt Pangulubao, Jangga Toruan, Lumban Julu, Toba Samosir, North Sumatra 21174, Indonesia</description>
+			<LookAt>
+				<longitude>99.07922304</longitude>
+				<latitude>2.58987386</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.07922303999999,2.58987386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sibualbuali</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_366</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<address>Sibualbuali, Gunung Tinggi Salaman, Sipirok, South Tapanuli, North Sumatra 22742, Indonesia</address>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>99.255,1.556,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lubuk Raya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_367</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,880 m Lubukraya, Huraba, East Angkola, South Tapanuli, North Sumatra 22735, Indonesia</description>
+			<LookAt>
+				<longitude>99.210661</longitude>
+				<latitude>1.477655</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.210661,1.477655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Dolok Gongonan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_368</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,440 m Dolok Gongonan, Sorik, Batang Angkola, South Tapanuli, North Sumatra 22773, Indonesia</description>
+			<LookAt>
+				<longitude>99.33005374</longitude>
+				<latitude>1.152930317</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.33005374,1.152930317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Malea</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_369</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,199 m Dolok Malea, Hutarimbaru, Barumun, Padang Lawas, North Sumatra 22763, Indonesia</description>
+			<LookAt>
+				<longitude>99.76839685</longitude>
+				<latitude>0.859979382</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.76839685,0.859979382,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sorikmarapi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_370</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,145 m Sorikmarapi, Sibanggor Julu, Puncak Sorok Marapi, Mandailing Natal, North Sumatra 22994, Indonesia</description>
+			<LookAt>
+				<longitude>99.53928999999999</longitude>
+				<latitude>0.68603</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.53928999999999,0.68603,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

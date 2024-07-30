@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Bengkulu.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Bengkulu</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Pandan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_100</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Pandan, Lubuk Talang, Malin Deman, Mukomuko, Bengkulu 38764, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>101.731389,-2.777778,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Seblat</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_101</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Seblat, Ketenong Dua, North Lebong, Lebong, Bengkulu 39264, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>102.145556,-2.883611,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barisan Mountains</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_102</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Barisan Mountains, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>102.709841,-3.62494,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Patah</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_103</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,850 m Patah, Bungin Tambun III, Padang Guci Hulu, Kaur, Bengkulu 38956, Indonesia</description>
+			<LookAt>
+				<longitude>103.3057421</longitude>
+				<latitude>-4.257579796</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>103.3057421,-4.257579796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kaba</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<valuegn_104</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,952 m Mt Kaba, Tugu Rejo, Kaba Wetan, Kepahiang, Bengkulu 39119, Indonesia</description>
+			<LookAt>
+				<longitude>102.616</longitude>
+				<latitude>-3.523</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>102.616,-3.523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Daun</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_105</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,493 m Bukit Daun, Talang Rendah, Hulu Palik, North Bengkulu, Bengkulu 38374, Indonesia</description>
+			<LookAt>
+				<longitude>102.3425</longitude>
+				<latitude>-3.391989</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>102.3425,-3.391989,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

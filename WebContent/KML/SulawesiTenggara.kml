@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SulawesiTenggara.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sulawesi Tenggara</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Tentolomatinan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_323</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,230 m Huidu Tentolomatinan, Labuton, Gadung, Buol, Central Sulawesi 96469, Indonesia</description>
+			<LookAt>
+				<longitude>121.77651</longitude>
+				<latitude>0.938797286</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.77651,0.938797286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wawo Lantambaga</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_324</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 909 m Wawo Lantambaga, Puuwatu, South Wawonii, Konawe, South East Sulawesi 93393, Indonesia</description>
+			<LookAt>
+				<longitude>123.0955376</longitude>
+				<latitude>-4.161315253</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.0955376,-4.161315253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kabawo Lambohogo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_325</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,069 m Kabawo Lambohogo, Lasiwa, Wakorumba, North Buton, South East Sulawesi 93672, Indonesia</description>
+			<LookAt>
+				<longitude>122.969898</longitude>
+				<latitude>-4.486635052</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.969898,-4.486635052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sambapolulu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_326</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,570 m Gunung Sambapolulu, Enano, Central Kabaena, Bombana, South East Sulawesi 93783, Indonesia</description>
+			<LookAt>
+				<longitude>121.9558478</longitude>
+				<latitude>-5.308634588</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.9558478,-5.308634588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Osu Nondoto</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_327</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,421 m Osu Nondoto, Asemi Nunulai, Asera, North Konawe, South East Sulawesi 93353, Indonesia</description>
+			<LookAt>
+				<longitude>121.5577381</longitude>
+				<latitude>-3.386059497</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.5577381,-3.386059497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Mekongga</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_328</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,650 m Gunung Mekongga, Walasiho, Wawo, North Kolaka, South East Sulawesi 93552, Indonesia</description>
+			<LookAt>
+				<longitude>121.236174</longitude>
+				<latitude>-3.664632</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.236174,-3.664632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Libukang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_329</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,242 m Sulawesi Tenggara</description>
+			<LookAt>
+				<longitude>121.1950375</longitude>
+				<latitude>-3.223334149</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.1950375,-3.223334149,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

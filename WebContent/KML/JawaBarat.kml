@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JawaBarat.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Jawa Barat</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Gunung Kerenceng</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_114</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,742 m Gunung Kerenceng, Sukajaya, South Sumedang, Sumedang, West Java 45311, Indonesia</description>
+			<LookAt>
+				<longitude>107.88188</longitude>
+				<latitude>-6.93407</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.88188,-6.93407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rakutak</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_115</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,957 m Gunung Rakutak, Nagrak, Pacet, Bandung, West Java 40385, Indonesia</description>
+			<LookAt>
+				<longitude>107.734462</longitude>
+				<latitude>-7.147885</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.734462,-7.147885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kamojang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_116</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation:  m Kamojang, Loa, Paseh, Bandung, West Java 40383, Indonesia</description>
+			<Camera>
+				<longitude>107.8130645073411</longitude>
+				<latitude>-7.140689631487151</latitude>
+				<altitude>1602.740997979542</altitude>
+				<heading>-1.193150404971667</heading>
+				<tilt>29.16674003890061</tilt>
+				<roll>-0.5139457311382049</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.8103079510921,-7.130177066222268,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wayang-Windu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_117</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,182 m Wayang-Windu, Banjarsari, Pangalengan, Bandung, West Java 40378, Indonesia</description>
+			<LookAt>
+				<longitude>107.636523</longitude>
+				<latitude>-7.212541</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.636523,-7.212541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Manglayang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_118</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,835 m Gunung Manglayang, Ciporeat, Cilengkrang, Bandung, West Java 40617, Indonesia</description>
+			<LookAt>
+				<longitude>107.74393</longitude>
+				<latitude>-6.87793</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.74393,-6.87793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Burangrang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_119</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,064 m Gunung Burangrang, Pasanggrahan, Bojong, Purwakarta, West Java 41164, Indonesia</description>
+			<LookAt>
+				<longitude>107.55566</longitude>
+				<latitude>-6.774184</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.55566,-6.774184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gede</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_120</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 3,019 m Mt Gede, Sindangjaya, Cipanas, Cianjur, West Java 43253, Indonesia</description>
+			<Camera>
+				<longitude>106.9813927944086</longitude>
+				<latitude>-6.790591636354907</latitude>
+				<altitude>508.974742927744</altitude>
+				<heading>-50.5728091661441</heading>
+				<tilt>0.8344694788891343</tilt>
+				<roll>-45.80696666735888</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>106.9828068075555,-6.790255815473036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Salak</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_121</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,211 m Mt Salak, Pasawahan, Cicurug, Sukabumi, West Java 43359, Indonesia</description>
+			<LookAt>
+				<longitude>106.733567</longitude>
+				<latitude>-6.716062</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>106.733567,-6.716062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Galunggung (Beuticanar)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_122</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,240 m Galunggung, Sukaharja, Sariwangi, Tasikmalaya, West Java 46465, Indonesia</description>
+			<LookAt>
+				<longitude>108.069087</longitude>
+				<latitude>-7.234457</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>108.069087,-7.234456999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Talagabodas</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_123</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation:  m Talagabodas, Sundakerta, Sukahening, Tasikmalaya, West Java 46155, Indonesia</description>
+			<LookAt>
+				<longitude>108.0705732933819</longitude>
+				<latitude>-7.207581701578239</latitude>
+				<altitude>0</altitude>
+				<heading>-1.164618702295862</heading>
+				<tilt>32.62351804720758</tilt>
+				<range>1962.788304743051</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>108.0700073717976,-7.207966057908333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bukittunggul</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_124</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,209 m Gunung Bukittunggul, Cipanjalu, Cilengkrang, Bandung, West Java 40618, Indonesia</description>
+			<LookAt>
+				<longitude>107.7262123</longitude>
+				<latitude>-6.810808119</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.7262123,-6.810808119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Guntur (Masigit)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_125</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,249 m Mt Guntur, Sukawangi, Tarogong Kaler, Garut, West Java 44151, Indonesia</description>
+			<LookAt>
+				<longitude>107.8412575</longitude>
+				<latitude>-7.14263954</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.8412575,-7.14263954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Malabar (Puncak Besar)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_126</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,343 m Mt Malabar, Mekarjaya, Pacet, Bandung, West Java 40385, Indonesia</description>
+			<LookAt>
+				<longitude>107.62513222</longitude>
+				<latitude>-7.1514397</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.62513222,-7.1514397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sangga Buana</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_127</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,279 m Gunung Sanggabuana, Buanajaya, Tanjungsari, Bogor, West Java 16840, Indonesia</description>
+			<LookAt>
+				<longitude>107.2208014</longitude>
+				<latitude>-6.59082801</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.2208014,-6.59082801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bongkok</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_128</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 970 m Gunung Bangkok, Cisarua, Tegal Waru, Purwakarta, West Java 41165, Indonesia</description>
+			<LookAt>
+				<longitude>107.33736</longitude>
+				<latitude>-6.601639</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.33736,-6.601639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Parang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_129</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 915 m Mt Parang, Pasanggrahan, Tegal Waru, Purwakarta, West Java 41165, Indonesia</description>
+			<LookAt>
+				<longitude>107.346735</longitude>
+				<latitude>-6.595252</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.346735,-6.595252,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tangkuban Parahu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_130</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,084 m Tangkuban Perahu, Sukajaya, Lembang, West Bandung, West Java 40391, Indonesia</description>
+			<LookAt>
+				<longitude>107.6059011</longitude>
+				<latitude>-6.753212272</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.6059011,-6.753212272,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Patuha</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_131</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,434 m Mt Patuha, Sugihmukti, Pasirjambu, Bandung, West Java 40973, Indonesia</description>
+			<LookAt>
+				<longitude>107.399987</longitude>
+				<latitude>-7.162512257</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.399987,-7.162512257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sawal</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_132</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,764 m Gunung Sawal, Cihaurbeuti, Ciamis, West Java, Indonesia</description>
+			<LookAt>
+				<longitude>108.2716727</longitude>
+				<latitude>-7.189202179</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>108.2716727,-7.189202179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tampomas</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_133</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,684 m Tampomas, Cibeureum Kulon, Cimalaka, Sumedang, West Java 45353, Indonesia</description>
+			<LookAt>
+				<longitude>107.960584</longitude>
+				<latitude>-6.763727</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.960584,-6.763727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Papandayan (Malang)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_134</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,675 m Mt Papandayan, Karamatwangi, Cisurupan, Garut, West Java 44163, Indonesia</description>
+			<LookAt>
+				<longitude>107.7158434</longitude>
+				<latitude>-7.328783343</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.7158434,-7.328783342999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Cikuray</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_135</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,821 m Gunung Cikuray, Dangiang, Cilawu, Garut, West Java 44162, Indonesia</description>
+			<LookAt>
+				<longitude>107.8600126731761</longitude>
+				<latitude>-7.321800005752089</latitude>
+				<altitude>0</altitude>
+				<heading>-7.45970836725911</heading>
+				<tilt>60.00402068978408</tilt>
+				<range>309.7393834861217</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>107.860003060772,-7.32249292364671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gede Pangrango</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_136</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Jl. Raya Cibodas, Cipanas, Cianjur, West Java 43253, Indonesia, (0263) 512776</description>
+			<styleUrl>#Gunung</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>http://maps.google.com/maps/place?latlng=-6777798,106948689,5104968820735116315&amp;hl=en&amp;gl=id&amp;ui=earth&amp;view=teaser</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>106.948689,-6.777798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pangrango</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_137</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 3,019 m Pangrango, Taman Nasional Gunung Gede Pangrango, Cikahuripan, Kadudampit, Sukabumi, Jawa Barat 43153, Indonesia</description>
+			<LookAt>
+				<longitude>106.9649795</longitude>
+				<latitude>-6.77006361</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>106.9649795,-6.770063610000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ciremai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_138</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 3,078 m Gunung Cereme, Taman Nasional Gunung Ciremai, Bantar Agung, Sindangwangi, Majalengka, Jawa Barat 45472, Indonesia</description>
+			<LookAt>
+				<longitude>108.406922</longitude>
+				<latitude>-6.892947216</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>108.406922,-6.892947216,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Halimun (North)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_139</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,929 m Mount Halimun Salak National Park</description>
+			<LookAt>
+				<longitude>106.4516538</longitude>
+				<latitude>-6.710830466</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>106.4516538,-6.710830466000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

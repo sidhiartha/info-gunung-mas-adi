@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Banten.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Banten</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Raksa</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_97</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 329 m Gunung Raksa, Ujung Kulon National Park, Ujungjaya, Sumur, Pandeglang, Banten 42284, Indonesia</description>
+			<LookAt>
+				<longitude>105.24261908</longitude>
+				<latitude>-6.60267826</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.24261908,-6.60267826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pulosari</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_98</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,346 m Pulosari, Pasireurih, Cipeucang, Pandeglang, Banten 42273, Indonesia</description>
+			<LookAt>
+				<longitude>105.9783492</longitude>
+				<latitude>-6.341661175</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.9783492,-6.341661174999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Karang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_99</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,778 m Gunung Karang, Saninten, Kaduhejo, Pandeglang, Banten 42215, Indonesia</description>
+			<LookAt>
+				<longitude>106.049645</longitude>
+				<latitude>-6.268369</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>106.049645,-6.268369,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

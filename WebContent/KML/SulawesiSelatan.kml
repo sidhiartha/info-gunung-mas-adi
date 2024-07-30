@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SulawesiSelatan.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sulawesi Selatan</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Tinangko</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_295</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,736 m Buntu Tinangko, Hono, Seko, North Luwu, Sulawesi Selatan 92956, Indonesia</description>
+			<LookAt>
+				<longitude>119.811152</longitude>
+				<latitude>-2.102528</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.811152,-2.102528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kambuno (Lantangunta)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_296</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,855 m Sulawesi Selatan</description>
+			<LookAt>
+				<longitude>120.0710882</longitude>
+				<latitude>-2.354684454</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.0710882,-2.354684454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Balease (Tolangi)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_297</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,016 m Buyu Balease, Uraso, Mappedeceng, North Luwu, Sulawesi Selatan 92963, Indonesia</description>
+			<LookAt>
+				<longitude>120.5419395</longitude>
+				<latitude>-2.405672742</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.5419395,-2.405672742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Buntu Puang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_298</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,925 m Sulawesi Selatan</description>
+			<LookAt>
+				<longitude>120.0849928</longitude>
+				<latitude>-3.007684919</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.0849928,-3.007684919,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ambesu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_299</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,957 m Sulawesi Selatan</description>
+			<LookAt>
+				<longitude>119.803983</longitude>
+				<latitude>-3.212448051</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.803983,-3.212448051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Latimojong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_300</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Latimojong, Luwu, Sulawesi Selatan, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>120.112735,-3.345115,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rantemario</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_301</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,440 m Mt Rantemario, Tolajuk, Latimojong, Luwu, Sulawesi Selatan 91754, Indonesia</description>
+			<LookAt>
+				<longitude>120.024299</longitude>
+				<latitude>-3.385134</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.024299,-3.385134,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tondongkarambu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_302</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,705 m Bulu Tondongkarambu, Bantimurung - Bulusaraung National Park, Bentenge, Mallawa, Maros, Sulawesi Selatan 90563, Indonesia</description>
+			<LookAt>
+				<longitude>119.808002</longitude>
+				<latitude>-4.758559</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.808002,-4.758559,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bawakaraeng</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_303</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,830 m Mont Bawakaraeng, Bantimurung - Bulusaraung National Park, Gunung Perak, West Sinjai, Sinjai, Sulawesi Selatan 92653, Indonesia</description>
+			<LookAt>
+				<longitude>119.944601</longitude>
+				<latitude>-5.316659</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.944601,-5.316659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Moncong Lompobatang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_304</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,874 m Moncong Lompobattang, Bantimurung - Bulusaraung National Park, Rappolemba, Tompobulu, Gowa, Sulawesi Selatan 92517, Indonesia</description>
+			<LookAt>
+				<longitude>119.936459</longitude>
+				<latitude>-5.356357</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.936459,-5.356357,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Maluku.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Folder>
+		<name>Maluku</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Manuk</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_205</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 282 m Maluku (Moluccas) Manuk, Indonesia</description>
+			<LookAt>
+				<longitude>130.306274</longitude>
+				<latitude>-5.543443</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>130.306274,-5.543443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wuarlapna</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_206</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 641 m Serua Island, Ilih, Damer, Maluku Barat Daya, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>130.01704</longitude>
+				<latitude>-6.312322</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>130.01704,-6.312322000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Laworkawra</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_207</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 781 m Mt Nila, Ilih, Damer, Maluku Barat Daya, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>129.51374</longitude>
+				<latitude>-6.740797</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>129.51374,-6.740797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Serawerna</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_208</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 655 m Maluku</description>
+			<LookAt>
+				<longitude>129.144077</longitude>
+				<latitude>-6.976305</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>129.144077,-6.976305,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wurlali</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_209</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 868 m Mt Wurlali, Ilih, Damer, Maluku Barat Daya, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>128.673538</longitude>
+				<latitude>-7.121887</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.673538,-7.121887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunungapi Wetar</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_210</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 282 m Maluku Gunungapi Wetar, Indonesia</description>
+			<LookAt>
+				<longitude>126.660687</longitude>
+				<latitude>-6.63515</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>126.660687,-6.63515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sahuai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_211</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,050 m Gunung Sahuai, Lokki, Huamual, West Seram Bagian, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>128.0150158</longitude>
+				<latitude>-3.220263481</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.0150158,-3.220263481,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Banda Api</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_212</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 640 m Banda Api, Nusantara, Banda, Central Maluku, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>129.8808342</longitude>
+				<latitude>-4.522509163</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>129.8808342,-4.522509163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Salahutu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_213</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,023 m Gunung Salahutu, Liang, Salahutu, Central Maluku, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>128.255799</longitude>
+				<latitude>-3.545684</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.255799,-3.545684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batakbual</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_214</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,750 m Kaku Batakbual, Batu Jungku, Bata Bual, Buru, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>127.1481874</longitude>
+				<latitude>-3.514102078</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.1481874,-3.514102078,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gecilia (Solita Batu)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_215</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,473 m Maluku</description>
+			<LookAt>
+				<longitude>128.6326295</longitude>
+				<latitude>-3.056533048</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.6326295,-3.056533048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Toplana (Totaniwel)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_216</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,329 m Gunung Toplana, Kamarian, Kairatu, West Seram Bagian, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>128.5</longitude>
+				<latitude>-3.383543217</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.5,-3.383543217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lalaitu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_217</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,411 m Maluku</description>
+			<LookAt>
+				<longitude>126.5133083</longitude>
+				<latitude>-7.684156584</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>126.5133083,-7.684156583999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kapalatmada</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_218</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,700 m Mt Kapalatmada, Wamlana, Air Buaya, Buru, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>126.219893</longitude>
+				<latitude>-3.300647</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>126.219893,-3.300647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Binaiya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_219</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,027 m Mt Binaiya, Kanikeh, North Seram, Central Maluku, Maluku, Indonesia</description>
+			<LookAt>
+				<longitude>129.454666</longitude>
+				<latitude>-3.173535</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>129.454666,-3.173535,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

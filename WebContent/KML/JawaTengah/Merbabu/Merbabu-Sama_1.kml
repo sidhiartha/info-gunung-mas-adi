@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Merbabu-Sama_1.kml</name>
+	<open>1</open>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="basecamp">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<Style id="sn_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<StyleMap id="point pendakian">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_point_pendakian</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_point_pendakian</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur alternatif">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_green_line</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_green_line</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur utama">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_campground">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_campground">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="campground">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="kawah">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="puncak">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_puncak</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_puncak</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_water">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>images/Water_Icon_Small.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_water">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>images/Water_Icon_Small.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="sumber air">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_water</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_water</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Merbabu-Sama_1</name>
+		<open>1</open>
+		<Placemark>
+			<name>Percabangan Cuntel Tekelan</name>
+			<description>
+			<![CDATA[
+			<b>Percabangan Jalur Cuntel Tekelan : </b>Percabangan / Pertemuan antara jalur pendakian Cuntel, jalur pendakian Tekelan dan jalur menuju puncak gunung Merbabu<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4369640487476</longitude>
+				<latitude>-7.442182174892563</latitude>
+				<altitude>0</altitude>
+				<heading>152.6342808097361</heading>
+				<tilt>57.3978660113215</tilt>
+				<range>179.9920065551458</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point pendakian</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_05_01</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4368904394233,-7.441829710078684,2850</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Percabangan Cuntel Tekelan)--(Puncak Pemancar/Watu Tulis)</name>
+			<description>
+			Kondisi jalur terbuka 
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.437012707965</longitude>
+				<latitude>-7.441776390139413</latitude>
+				<altitude>0</altitude>
+				<heading>-4.727814557835392e-05</heading>
+				<tilt>49.98178104921147</tilt>
+				<range>556.6695800399011</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_05_02</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.436890368294,-7.44182427416431,0 110.4369211767052,-7.441959917341945,0 110.4369142644518,-7.442151448851809,0 110.4369620399717,-7.442300465907221,0 110.4370036704402,-7.442374050742763,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Pemancar/Watu Tulis</name>
+			<description>
+			<![CDATA[
+			<b>Puncak Pemancar / Puncak Watu Tulis : </b> Melalui jalur Cuntel dan Tekelan, Di lokasi ini terdapat Sumber Air, Bangunan permanen dan Camping Ground<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4370215879304</longitude>
+				<latitude>-7.442465687214957</latitude>
+				<altitude>0</altitude>
+				<heading>152.6342733566825</heading>
+				<tilt>57.39778730187746</tilt>
+				<range>169.5831132820499</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#puncak</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_05_03</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4370050059723,-7.442373422794528,2900</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sumber Air Puncak Pemancar</name>
+			<description>
+			<![CDATA[
+			<b>Sumber Air Puncak Pemancar / Watu Tulis : </b>Berupa bak penampuangan air (musiman)<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4370215879304</longitude>
+				<latitude>-7.442465687214957</latitude>
+				<altitude>0</altitude>
+				<heading>152.6342733566825</heading>
+				<tilt>57.39778730187746</tilt>
+				<range>169.5831132820499</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#sumber air</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_05_04</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>110.4371921023981,-7.442205154391035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Camping Ground Puncak Pemancar</name>
+			<description>
+			<![CDATA[
+<b>Campground Puncak Pemancar / Watu Tulis : </b>Tempat yang direkomendasikan untuk bermalam dan mendirikan tenda, di tempat ini juga terdapat bangunan permanen<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4370215879304</longitude>
+				<latitude>-7.442465687214957</latitude>
+				<altitude>0</altitude>
+				<heading>152.6342733566825</heading>
+				<tilt>57.39778730187746</tilt>
+				<range>169.5831132820499</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#campground</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_05_05</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>110.4372191899582,-7.442283723440866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Puncak Pemancar/Watu Tulis)--(Percabangan jalur Wekas, Puncak)</name>
+			<description>
+			Kondisi jalur terbuka
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4372811518922</longitude>
+				<latitude>-7.444182386735779</latitude>
+				<altitude>0</altitude>
+				<heading>2.821012853190825e-10</heading>
+				<tilt>44.99973704738895</tilt>
+				<range>1000.000076886501</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_05_06</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.437000800354,-7.442365973161206,0 110.436984061586,-7.442510651978187,0 110.4369754958004,-7.442667177987043,0 110.4369686533912,-7.442795847296988,0 110.4369539311898,-7.442967775009778,0 110.4369530888799,-7.443136918365862,0 110.4369682676862,-7.443252064282689,0 110.4370650613338,-7.443439013412116,0 110.4371029119609,-7.443546547784137,0 110.4371017454208,-7.443637752736898,0 110.4371406287037,-7.443685161691558,0 110.4371608632326,-7.44398654331645,0 110.4371859053576,-7.444155741764866,0 110.4372260297155,-7.444312597307844,0 110.4372546949293,-7.444447128438521,0 110.4372904650245,-7.444519771646629,0 110.437326835106,-7.444605643864985,0 110.4373954145384,-7.444774963837721,0 110.4374818692405,-7.444969937707662,0 110.4375541439101,-7.445094797092434,0 110.4375608331636,-7.445172557487754,0 110.4376183182019,-7.445255755279395,0 110.4376241730735,-7.445415712489504,0 110.4376379843397,-7.445520849060761,0 110.4376701354389,-7.445712182727423,0 110.4376921173921,-7.445751869806161,0 110.4377043641183,-7.445791780699057,0 110.4377024420598,-7.445830667618782,0 110.4377025972056,-7.44588384096227,0 110.4376924179505,-7.445952706731496,0 110.4376910334174,-7.446014895510224,0 110.4376851360252,-7.446045956797876,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		
+	</Folder>
+</Document>
+</kml>

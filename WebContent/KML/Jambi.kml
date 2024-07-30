@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Jambi.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Jambi</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Kerinci</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_108</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,805 m Gunung Kerinci, Kerinci, Jambi, Indonesia</description>
+			<LookAt>
+				<longitude>101.2642252</longitude>
+				<latitude>-1.696621991</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>101.2642252,-1.696621991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tujuh</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_109</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Lake Gunung Tujuh, Danau, Gunung Tujuh, Kerinci, Jambi 37163, Indonesia</description>
+			<LookAt>
+				<longitude>101.440263</longitude>
+				<latitude>-1.701395</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>101.440263,-1.701395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sumbing (Sumatera)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_110</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Sumbing, Tanjung Kasri, Jangkat, Merangin, Jambi 37372, Indonesia</description>
+			<LookAt>
+				<longitude>101.7291962</longitude>
+				<latitude>-2.414933689</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>101.7291962,-2.414933689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Raya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_111</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Raya, Kerinci, Jambi, Indonesia</description>
+			<LookAt>
+				<longitude>101.429974</longitude>
+				<latitude>-2.22826</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>101.429974,-2.22826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Masurai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_112</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Masurai, Renah Alai, Jangkat, Merangin, Jambi 37372, Indonesia</description>
+			<LookAt>
+				<longitude>101.858356</longitude>
+				<latitude>-2.502747</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>101.858356,-2.502747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gedang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_113</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Gedang, Muara Madras, Jangkat, Merangin, Jambi 38363, Indonesia</description>
+			<LookAt>
+				<longitude>101.9195215</longitude>
+				<latitude>-2.736184224</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>101.9195215,-2.736184224,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

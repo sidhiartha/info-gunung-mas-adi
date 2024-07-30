@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Aceh.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Aceh</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Kembar</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_82</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Mt Kembar, Gunung Leuser National Park, Blangtemung, Dabun Gelang, Gayo Lues, Aceh 24655, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>97.66400000000002,3.85,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pungongesong, Gunung Leuser National Park</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_83</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Pungongesong, Gunung Leuser National Park, Hutan, Badar, Aceh Tenggara, Aceh 20852, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>97.858333,3.622222,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Seulawah Agam</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_84</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,810 m Seulawah Agam, Pulo, Seulimeum, Aceh Besar, Aceh 23951, Indonesia</description>
+			<LookAt>
+				<longitude>95.655888</longitude>
+				<latitude>5.447142</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>95.655888,5.447142,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Hulumasen</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_85</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,310 m Gunung Hulumasen, Blang Luah, Sampoiniet, Aceh Jaya, Aceh 23656, Indonesia</description>
+			<LookAt>
+				<longitude>95.63335933</longitude>
+				<latitude>5.044079482</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>95.63335933,5.044079482,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Peuet Sague</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_86</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,801 m Peuet Sague, Hutan, Geumpang, Pidie, Aceh 24152, Indonesia</description>
+			<LookAt>
+				<longitude>96.32880400000001</longitude>
+				<latitude>4.915084</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>96.32880400000001,4.915084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bur ni Geureudong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_87</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,885 m Nanggroe Aceh Darussalam</description>
+			<LookAt>
+				<longitude>96.816312</longitude>
+				<latitude>4.810578</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>96.81631200000001,4.810578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bandahara</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_88</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,012 m Gunung Bandahara, Gunung Leuser National Park, Hutan, Ketambe, Aceh Tenggara, Aceh 20852, Indonesia</description>
+			<LookAt>
+				<longitude>97.7816862</longitude>
+				<latitude>3.749174432</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>97.7816862,3.749174432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bukit Mugajah</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_89</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,079 m Gunung Mugajah, Gampong Terujak, Serba Jadi, East Aceh, Aceh 24392, Indonesia</description>
+			<LookAt>
+				<longitude>97.420548</longitude>
+				<latitude>4.251664</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>97.42054799999998,4.251664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sembuang Dua</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_90</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Sembuang Dua, Sembuang, Serba Jadi, East Aceh, Aceh 24392, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>97.473056,4.574722,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sembuang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_91</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,028 m Gunung Sembuang, Sembuang, Serba Jadi, East Aceh, Aceh 24392, Indonesia</description>
+			<LookAt>
+				<longitude>97.40842741</longitude>
+				<latitude>4.635839366</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>97.40842741,4.635839366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Burniklieuteun</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_92</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,635 m Gunung Burniklieuteun, Kemerleng, Linge, Central Aceh, Aceh 24475, Indonesia</description>
+			<LookAt>
+				<longitude>96.95838494</longitude>
+				<latitude>4.551589999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>96.95838494,4.551589999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Abong Abong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_93</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,985 m Gunung Abong Abong, Hutan, Beutong, Nagan Raya, Aceh 23672, Indonesia</description>
+			<LookAt>
+				<longitude>96.79502196999999</longitude>
+				<latitude>4.241619577</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>96.79502196999999,4.241619577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kemiri</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_94</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,317 m Gunung Kemiri, Gumpang Lempuh, Putri Betung, Gayo Lues, Aceh 24655, Indonesia</description>
+			<LookAt>
+				<longitude>97.479052</longitude>
+				<latitude>3.74773</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>97.479052,3.747729999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pulau Weh (Cot Kulam)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_95</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 648 m Nanggroe Aceh Darussalam</description>
+			<LookAt>
+				<longitude>95.28168038</longitude>
+				<latitude>5.812588542</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>95.28168038000001,5.812588542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Leuser</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_96</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,466 m Gunung Leuser, Taman Nasional Gunung Leuser, Kong Paluh, Kutapanjang, Gayo Lues, Aceh 24653, Indonesia</description>
+			<LookAt>
+				<longitude>97.21927606</longitude>
+				<latitude>3.797584071</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>97.21927605999998,3.797584071,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

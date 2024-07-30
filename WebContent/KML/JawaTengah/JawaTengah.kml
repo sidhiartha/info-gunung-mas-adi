@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JawaTengah.kml</name>
+	<open>1</open>
+	
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	
+	<!-- mulai data --> 
+	<Folder>
+		<name>Jawa Tengah</name>
+		<open>1</open>
+		<Placemark>
+			<name>Slamet</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-005</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Gunung Slamet, Gunungsari, Pulosari, Pemalang, Jawa Tengah 52355, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>109.2199358</longitude>
+				<latitude>-7.239069188</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>109.2199358,-7.239069188,3432</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sumbing</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-004</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Sumbing, Purwojiwo, Kalikajar, Wonosobo, Jawa Tengah 56372, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.07121</longitude>
+				<latitude>-7.38343</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.07121,-7.38343,3370</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sindoro</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-003</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Sundoro / Sindoro, Taman Nasional Gunung Sumbing, Lengkong, Garung, Wonosobo, Jawa Tengah 56353, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>109.995771</longitude>
+				<latitude>-7.302346</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>109.995771,-7.302346,3136</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Merbabu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-002</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Gunung Merbabu, Taman Nasional Gunung Merbabu, Suroteleng, Selo, Boyolali, Jawa Tengah 57363, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.4404384</longitude>
+				<latitude>-7.453759548</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.4404384,-7.453759548,3145</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Merapi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-001</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[Gunung Merapi, Taman Nasional Gunung Merapi.
+						Suroteleng, Selo, Boyolali, Jawa Tengah 57363 
+						sisi Timur dan Utara).
+						Magelang, Jawa Tengah (sisi Barat).
+						Sleman, DI Yogyakarta (sisi Selatan).
+						]]>
+			</description>
+			<LookAt>
+				<longitude>110.446937</longitude>
+				<latitude>-7.539728</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.446937,-7.539727999999999,2930</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dieng (Prau)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-006</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Gunung Prau, Pranten, Bawang, Batang, Jawa Tengah 56354, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>109.9328003</longitude>
+				<latitude>-7.197458296</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>109.9328003,-7.197458295999999,2565</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ungaran</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-007</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Mt Ungaran, Hutan, Semarang, Jawa Tengah 51383, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.347958</longitude>
+				<latitude>-7.183799687</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.347958,-7.183799687,2050</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Muria</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-008</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Gunung Muria, Tempur, Keling, Jepara, Jawa Tengah 59454, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.890289</longitude>
+				<latitude>-6.616241</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.890289,-6.616241,1600</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Telomoyo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-009</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Gunung Telomoyo, Pandean, Ngablak, Magelang, Jawa Tengah 56194, Indonesia
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.39989</longitude>
+				<latitude>-7.361</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>110.39989,-7.361,1890</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lasem</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-010</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Gunung Lasem, Rakitan, Sluke, Rembang, Jawa Tengah 59262, Indonesia
+			]]>
+			</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>111.518889,-6.686667,805</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Andong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn-011</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[
+			Girirejo, Ngablak, Magelang, Jawa Tengah 56194, Indonesia
+			]]>
+			</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>110.37025606068,-7.390030555555556,1720</coordinates>
+				</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

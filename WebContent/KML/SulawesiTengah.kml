@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SulawesiTengah.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sulawesi Tengah</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Colo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_305</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 507 m Colo, Lembanya, Una-Una, Tojo Una-Una, Central Sulawesi 94691, Indonesia</description>
+			<LookAt>
+				<longitude>121.611108</longitude>
+				<latitude>-0.1778</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.611108,-0.1778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Dako</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_306</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,260 m Bukii Dako, Ogomoli, Galang, Toli-Toli, Central Sulawesi 94561, Indonesia</description>
+			<LookAt>
+				<longitude>120.9344902</longitude>
+				<latitude>1.062563774</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.9344902,1.062563774,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Malino</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_307</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,410 m Buyule Malino, Kokobuka, Tiloan, Buol, Central Sulawesi 94518, Indonesia</description>
+			<LookAt>
+				<longitude>120.887632</longitude>
+				<latitude>0.7058219999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.887632,0.7058219999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sojol</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_308</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,030 m Fuyul Sojol, Pebo Unang, Palasa, Parigi Moutong, Central Sulawesi 94476, Indonesia</description>
+			<LookAt>
+				<longitude>120.2048</longitude>
+				<latitude>0.577422</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.2048,0.577422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sidole</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_309</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,803 m Sulawesi Tengah</description>
+			<LookAt>
+				<longitude>119.9589257</longitude>
+				<latitude>-0.54241521</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.9589257,-0.54241521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gawalise</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_310</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,023 m Sulawesi Tengah</description>
+			<LookAt>
+				<longitude>119.769499</longitude>
+				<latitude>-0.910706</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.769499,-0.910706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bulu Nti</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_311</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,334 m Bulu Nti, Balomoa, West Dolo, Sigi, Central Sulawesi 94362, Indonesia</description>
+			<LookAt>
+				<longitude>119.8006017</longitude>
+				<latitude>-1.085667103</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.8006017,-1.085667103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Nokilalaki</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_312</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,355 m Bulu Nokilelaki, Anca, Lindu, Sigi, Central Sulawesi 94653, Indonesia</description>
+			<LookAt>
+				<longitude>120.166178</longitude>
+				<latitude>-1.255655</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.166178,-1.255655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Torompupu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_313</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,495 m Bulu Torompupu, Salua, Kulawi, Sigi, Central Sulawesi 94363, Indonesia</description>
+			<LookAt>
+				<longitude>119.8563374</longitude>
+				<latitude>-1.424819863</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.8563374,-1.424819863,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tombia</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_314</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,022 m Sulawesi Tengah</description>
+			<LookAt>
+				<longitude>122.8867264</longitude>
+				<latitude>-1.348324419</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.8867264,-1.348324419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tompotika</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_315</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,550 m Bungkutnyo Tompotika, Dwi Karya, Bualemo, Banggai, Central Sulawesi 94752, Indonesia</description>
+			<LookAt>
+				<longitude>123.110759</longitude>
+				<latitude>-0.681167</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.110759,-0.681167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tumpu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_316</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,565 m Gunung Tumpu, Damai Makmur, Nuhon, Banggai, Central Sulawesi 94753, Indonesia</description>
+			<LookAt>
+				<longitude>122.1902466</longitude>
+				<latitude>-1.064263652</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.1902466,-1.064263652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batui</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_317</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,930 m Sulawesi Tengah</description>
+			<LookAt>
+				<longitude>122.081435</longitude>
+				<latitude>-1.360962</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.081435,-1.360962,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Buyu Lumut</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_318</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,403 m Buyu Lumut, Uematopa, Ulubongka, Tojo Una-Una, Central Sulawesi 94753, Indonesia</description>
+			<LookAt>
+				<longitude>121.8033832</longitude>
+				<latitude>-1.203633684</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.8033832,-1.203633684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kandela</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_319</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,870 m Bulu Kandela, Uematopa, Ulubongka, Tojo Una-Una, Central Sulawesi 94682, Indonesia</description>
+			<LookAt>
+				<longitude>121.542921</longitude>
+				<latitude>-1.299138</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.542921,-1.299138,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tokala</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_320</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,584 m Pegunungan Tokala, Salubiro, North Bungku, Morowali, Central Sulawesi 94972, Indonesia</description>
+			<LookAt>
+				<longitude>121.670816</longitude>
+				<latitude>-1.612362</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.670816,-1.612362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pompangeo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_321</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 2,590 m Pegunungan Pompangeo, Era, North Mori, Morowali, Central Sulawesi 94965, Indonesia</description>
+			<LookAt>
+				<longitude>120.998601</longitude>
+				<latitude>-1.683598632</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.998601,-1.683598632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Masamba</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_322</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,808 m Sulawesi Tengah</description>
+			<LookAt>
+				<longitude>121.252517</longitude>
+				<latitude>-1.754487</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.252517,-1.754487,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

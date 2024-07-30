@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MalukuUtara.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Maluku Utara</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Buku Rica (Meng)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_220</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,127 m Maluku Utara</description>
+			<LookAt>
+				<longitude>127.6118635</longitude>
+				<latitude>-0.492156857</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.6118635,-0.492156857,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kie Besi (Mailoa)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_221</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,357 m Gunung Mailowa, Wailoa, Makian Island, South Halmahera, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>127.3911111</longitude>
+				<latitude>0.318858893</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.3911111,0.318858893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Jailolo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_222</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,030 m Maluku Utara Gunung Jailolo, Idamdehe, Jailolo, West Halmahera, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>127.4392848</longitude>
+				<latitude>1.080376118</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.4392848,1.080376118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sabatai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_223</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,250 m Gunung Sabatai, Ngele Ngele Kecil, West Morotai Selatan, Morotai Island, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>128.4336655</longitude>
+				<latitude>2.229142606</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.4336655,2.229142606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pulau Taliabu (Lida Godo)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_224</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,415 m Maluku Utara</description>
+			<LookAt>
+				<longitude>124.609639</longitude>
+				<latitude>-1.759251</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.609639,-1.759251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gamkonora</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_225</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,571 m Gamkonora, Ngawet, South Ibu, West Halmahera, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>127.534107</longitude>
+				<latitude>1.378354</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.534107,1.378354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Dukono</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_226</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,259 m Dukono, South Gorua, North Tobelo, North Halmahera, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>127.8941435</longitude>
+				<latitude>1.693293421</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.8941435,1.693293421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rogirogi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_227</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,220 m Maluku Utara</description>
+			<LookAt>
+				<longitude>127.7569442</longitude>
+				<latitude>-0.265975189</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.7569442,-0.265975189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Loku</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_228</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,127 m Maluku Utara</description>
+			<LookAt>
+				<longitude>126.052467</longitude>
+				<latitude>-1.831807162</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>126.052467,-1.831807162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pulau Obi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_229</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,611 m Maluku Utara</description>
+			<LookAt>
+				<longitude>127.6687102</longitude>
+				<latitude>-1.538142679</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.6687102,-1.538142679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gamalama</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_230</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,715 m Maluku Utara Gamalama, Hutan Lindung, Ternate, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>127.3330407</longitude>
+				<latitude>0.809076656</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.3330407,0.8090766560000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kiematubu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_231</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,750 m Maluku Utara</description>
+			<LookAt>
+				<longitude>127.402957</longitude>
+				<latitude>0.662026</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.402957,0.662026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Watowato</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_232</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,442 m Maluku Utara</description>
+			<LookAt>
+				<longitude>128.1089087</longitude>
+				<latitude>1.013364948</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>128.1089087,1.013364948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ibu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_233</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,377 m Maluku Utara Mt Ibu, Maritango, Ibu, West Halmahera, Maluku Utara, Indonesia</description>
+			<LookAt>
+				<longitude>127.6304989</longitude>
+				<latitude>1.490672073</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.6304989,1.490672073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Buku Sibela</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_234</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,111 m Maluku Utara</description>
+			<LookAt>
+				<longitude>127.524383</longitude>
+				<latitude>-0.73703</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>127.524383,-0.7370299999999999,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

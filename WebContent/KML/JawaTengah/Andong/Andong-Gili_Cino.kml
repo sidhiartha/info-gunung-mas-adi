@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Andong-Gili_Cino.kml</name>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="basecamp">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<Style id="sn_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<StyleMap id="point pendakian">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_point_pendakian</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_point_pendakian</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur alternatif">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_green_line</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_green_line</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur utama">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_campground">
+		<IconStyle>
+			<scale>0.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_campground">
+		<IconStyle>
+			<scale>0.472727</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="campground">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_caution">
+		<IconStyle>
+			<scale>0.466666</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="kawah">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="puncak">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_puncak</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_puncak</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Gunung Andong</name>
+		<open>1</open>
+		<Placemark>
+			<name>Jalur Gili Cino</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>jl-011_01</value>
+      			</Data>
+			</ExtendedData>
+			<styleUrl>#jalur utama</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						110.3712756782893,-7.388802904270535,0 110.3710977782427,-7.388974773069528,0 110.3709753691765,-7.389121125680449,0 110.3708707916564,-7.389176973165841,0 110.3707839574779,-7.389273493798552,0 110.3707143490475,-7.389365637818216,0 110.3706628246697,-7.389436066576279,0 110.3706016655556,-7.389514241667026,0 110.3705505898335,-7.389583498300197,0 110.3705172213403,-7.389631782414486,0 110.3704487159408,-7.389724983855668,0 110.3703981349921,-7.389775020870148,0 110.3703383121824,-7.389867218721633,0 110.3702616799991,-7.389912987195462,0 110.3701510772331,-7.389953509442405,0 110.3700540549901,-7.389994312417173,0 110.3699785198543,-7.389988357153448,0 110.3699287231534,-7.389995219906604,0 110.3698753274148,-7.389976174899065,0 110.3697974794,-7.3899399675,0 110.3697350342,-7.389908870699999,0 110.3696611896,-7.3898646142,0 110.3696047794,-7.3898441624,0 110.3695030231,-7.3898029234,0 110.3693661466,-7.3897275701,0 110.3694010153,-7.389847515199999,0 110.3695078008,-7.3900774308,0 110.3696010076,-7.390264514800001,0 110.3697001655,-7.3904431332,0 110.369740231,-7.3904956039,0 110.3699692246,-7.3904831987,0 110.3701765441673,-7.390428493270053,0 110.3703448415534,-7.390412210630712,0 110.3703875226286,-7.390451070116877,0 110.3704382388615,-7.390524270654078,0 110.370411990249,-7.390558966282313,0 110.3705396759779,-7.390625680149838,0 110.3706258775633,-7.390709170621789,0 110.3708651533057,-7.390874108961535,0 110.3710796157298,-7.391121092880118,0 110.3712274902571,-7.391006968552247,0 110.3713675913929,-7.390855278832742,0 110.371544253136,-7.390791620916138,0 110.3717095766814,-7.390685861266467,0 110.3716581222873,-7.390471561957446,0 110.3717463606345,-7.390299295594385,0 110.3721225615351,-7.390175587702425,0 110.3721794223987,-7.390065746790102,0 110.3722388070266,-7.390081790419143,0 110.3722311943945,-7.390159040939362,0 110.3722923039443,-7.390208789884642,0 110.3723810557871,-7.390113968622241,0 110.3724489675259,-7.390121722739872,0 110.3726159543197,-7.390279082725188,0 110.3727035081957,-7.390191717016412,0 110.3727788431268,-7.390155841823417,0 110.3729322806968,-7.390236678215453,0 110.3729825617812,-7.390291193457375,0 110.3729855362,-7.390451934200001,0 110.3730618116,-7.390479426799999,0 110.3730590455,-7.3905024771,0 110.3731196467,-7.390682688000001,0 110.3731293697,-7.390665086,0 110.3732758854,-7.3907220829,0 110.3733425215,-7.3908347357,0 110.3733914718,-7.3909639847,0 110.3733876999,-7.3909922317,0 110.3736524355233,-7.391319315484611,0 110.3737838057981,-7.391409078117993,0 110.3737967368,-7.391539653799999,0 110.3738219664,-7.391558513,0 110.3739083,-7.391585419,0 110.374096809,-7.3916092236,0 110.3742660828572,-7.391684376128434,0 110.3743004892,-7.3917742632,0 110.3743670195865,-7.391832004204256,0 110.3744493265225,-7.391932540437228,0 110.3746719913603,-7.392141360168196,0 110.3755170592109,-7.392571238522414,0 110.3756009415,-7.3927345779,0 110.3756547533,-7.3927832767,0 110.3760660533,-7.3929761443,0 110.3761007919923,-7.392984530737708,0 110.3760608000316,-7.393039263131036,0 110.3760610328721,-7.393094288502813,0 110.3761056276826,-7.393120645299806,0 110.3761792286155,-7.393142605962198,0 110.3763918579,-7.3931719456,0 110.3765057679,-7.3932188842,0 110.3765222803,-7.3932291102,0 110.3765758406,-7.3932372406,0 110.3766271379,-7.393260039399999,0 110.3766288981,-7.3932710197,0 110.3767242841,-7.3932800721,0 110.3767693788,-7.3933037929,0 110.3768331561001,-7.393370012010454,0 110.3769158428336,-7.393400720868763,0 110.3770325712812,-7.393424739177576,0 110.3772049763743,-7.393469875834993,0 110.3771213349,-7.393629010799999,0 110.3770868853,-7.393688187,0 110.3770023957,-7.3938637879,0 110.3769365977,-7.3940178473,0 110.3769013938,-7.3941266444,0 110.3768164851,-7.394247092299999,0 110.3768468276,-7.394384807000001,0 110.3768319916,-7.3944062646,0 110.3769883979,-7.3944199272,0 110.3770146333,-7.3944505211,0 110.3772182297,-7.394529311,0 110.377370026,-7.3945206776,0 110.377412606,-7.3945143074,0 110.3775244206,-7.394501147799999,0 110.3777157795,-7.3944977112,0 110.3778845072,-7.394481618,0 110.3780622035,-7.3944921792,0 110.3782167658,-7.3945109546,0 110.3784178477,-7.3945411295,0 110.3788376972,-7.3946641758,0 110.3790316544,-7.3947408702,0 110.3792372625,-7.3948087636,0 110.3793350750966,-7.394854903317285,0 110.3794308089533,-7.39490558404825,0 110.3794892748319,-7.39494473085781,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Basecamp Gili Cino</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>pl-011_01_01</value>
+      			</Data>
+			</ExtendedData>
+			<description>
+			<![CDATA[<b>Basecamp Gili Cino : </b>Basecamp jalur pendakian gili cino gunung Andong.
+			Basecamp terdiri dari beberapa rumah-rumah penduduk <br>
+			<b>Lokasi : </b>Dusun Sawit, Desa Girirejo, Kec. Ngablak, Kab. Magelang, Provinsi Jawa Tengah<br>
+			<b> Fasilitas : </b> Penitipan motor, tempat istirahat, toilet dan warung makan. Ditempat ini pendaki wajib mengisi data diri dan melapor sebelum dan sesudah pendakian. <br>
+			<b> Pengelola : </b> Taruna Jayagiri <br>
+			<b> Telepon : </b> 087719189000, 08156507492<br> <br>
+			]]>
+			</description>
+			<styleUrl>#basecamp</styleUrl>
+			<Point>
+				<coordinates>110.3795074579657,-7.394948678587458,1327</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Andong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>pl-011_01_23</value>
+      			</Data>
+			</ExtendedData>
+			<description>Puncak tertinggi gunung andong</description>
+			<styleUrl>#puncak</styleUrl>
+			<Point>
+				<coordinates>110.3713018333289,-7.388784938905091,1739.162109375</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Camground Andong</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>pl-011_01_02</value>
+      			</Data>
+			</ExtendedData>
+			<description>Latitude: -7.38986671 Longitude : 110.3700843</description>
+			<styleUrl>#campground</styleUrl>
+			<Point>
+				<coordinates>110.3700843081,-7.3898667097,1720</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SulawesiUtara.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sulawesi Utara</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Awu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_330</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,340 m Gunung Awu, Taman Nasional Sanger Gunung Api Awu, Utaurano, Tabukan Utara, Kepulauan Sangihe, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>125.4476848</longitude>
+				<latitude>3.688319262</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.4476848,3.688319262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Karangetang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_331</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,827 m Karangetang, Mini, North Siau Barat, Siau Tagulandang Biaro, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>125.4070813</longitude>
+				<latitude>2.780878661</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.4070813,2.780878661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bukiri Kalongan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_332</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 786 m Sulawesi Utara</description>
+			<LookAt>
+				<longitude>125.4391806</longitude>
+				<latitude>2.345014422</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.4391806,2.345014422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ruang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_333</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 725 m Ruang, Laingpatehi, Tagulandang, Siau Tagulandang Biaro, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>125.3516869</longitude>
+				<latitude>2.305850339</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.3516869,2.305850339,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Manado Tua</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_334</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 805 m Sulawesi Utara</description>
+			<LookAt>
+				<longitude>124.695322</longitude>
+				<latitude>1.631218</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.695322,1.631218,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tongkoko</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_335</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Tongkoko, Kasawari, Aertembaga, Bitung, Sulawesi Utara, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>125.2,1.52,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Dua Saudara</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_336</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,351 m Gunung Dua Saudara, Kadoodan, Madidir, Bitung, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>125.158313</longitude>
+				<latitude>1.485378</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.158313,1.485378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Klabat</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_337</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,995 m Mt Klabat, Lembean, Kauditan, North Minahasa, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>125.031258</longitude>
+				<latitude>1.453344</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.031258,1.453344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Mahawu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_338</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Mahawu, Kinilow Satu, North Tomohon, Tomohon City, Sulawesi Utara, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>124.858,1.358,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lokon</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_339</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,580 m Lokon-Empung, Agotey, Pineleng, Minahasa, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>124.7966765</longitude>
+				<latitude>1.355790987</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.7966765,1.355790987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tondano</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_340</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Mt Tondano, Uner Satu, Kawangkoan, Minahasa, Sulawesi Utara, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>124.83,1.23,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sempu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_341</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Mt Sempu, Tumaratas Dua, West Langowan, Minahasa, Sulawesi Utara, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>124.758,1.13,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Soputan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_342</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,803 m Soputan, Winorangian, North Tombatu, Minahasa Tenggara, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>124.7349928</longitude>
+				<latitude>1.112518088</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.7349928,1.112518088,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ambang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_343</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,795 m Ambang, Bongkudai Baru, Modayag, East Bolaang Mongondow, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>124.415918</longitude>
+				<latitude>0.757376</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.415918,0.757376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Matabulawa</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_344</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,964 m Huidu Matabulawa, Taman Nasional Bogani Nani Wartabone, Sinombayuga, Posigadan, Bolaang Mongondow Selatan, Sulawesi Utara, Indonesia</description>
+			<LookAt>
+				<longitude>123.6735214</longitude>
+				<latitude>0.490217045</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.6735214,0.490217045,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

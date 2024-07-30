@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KalimantanTimur.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Kalimantan Timur</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Latuk</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_170</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Latuk, Long Bena, Pujungan, Malinau, Kalimantan Timur 77562, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>115.588889,2.959722,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Buntung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_171</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,034 m Gunung Buntung, Karangan Seberang, Karangan, East Kutai, Kalimantan Timur 75684, Indonesia</description>
+			<LookAt>
+				<longitude>117.411557</longitude>
+				<latitude>1.603949</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.411557,1.603949,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kulat North</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_172</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 812 m Kalimantan Timur</description>
+			<LookAt>
+				<longitude>117.327544</longitude>
+				<latitude>1.371803</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.327544,1.371803,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kulat South</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_173</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 891 m Gunung Kulat, Merabu, Kelay, Berau, Kalimantan Timur 77362, Indonesia</description>
+			<LookAt>
+				<longitude>117.284523</longitude>
+				<latitude>1.251454</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.284523,1.251454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Buringayok</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_174</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,202 m Kalimantan Timur</description>
+			<LookAt>
+				<longitude>115.3161924</longitude>
+				<latitude>-0.002936699</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.3161924,-0.002936699,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batuayau</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_175</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,642 m Kalimantan Timur</description>
+			<LookAt>
+				<longitude>114.8795608</longitude>
+				<latitude>0.745401545</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.8795608,0.745401545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Beriun</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_176</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,297 m Gunung Beriun, Baay, Karangan, East Kutai, Kalimantan Timur 75684, Indonesia</description>
+			<LookAt>
+				<longitude>117.4678162</longitude>
+				<latitude>1.316367355</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.4678162,1.316367355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Beratus</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_177</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,244 m Gunung Beratus, Pereng Talik, Bongan, West Kutai, Kalimantan Timur 76145, Indonesia</description>
+			<LookAt>
+				<longitude>116.3362424</longitude>
+				<latitude>-1.021139463</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>116.3362424,-1.021139463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lumut</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_178</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,236 m Gunung Lumut, Long Sayo, Muara Komam, Paser, Kalimantan Timur 76283, Indonesia</description>
+			<LookAt>
+				<longitude>115.9902928</longitude>
+				<latitude>-1.396209241</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.9902928,-1.396209241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gay</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_179</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,476 m Kalimantan Timur</description>
+			<LookAt>
+				<longitude>116.7704255</longitude>
+				<latitude>2.102087347</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>116.7704255,2.102087347,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Nyaan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_180</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,660 mKalimantan Timur</description>
+			<LookAt>
+				<longitude>115.004873</longitude>
+				<latitude>1.007991</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.004873,1.007991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Nyapa</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_181</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,290 m Kalimantan Timur</description>
+			<LookAt>
+				<longitude>117.4256694</longitude>
+				<latitude>1.77134785</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.4256694,1.77134785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Belayan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_182</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,195 m Gunung Belayan, Muara Belinau, Tabang, Kutai Kartanegara, Kalimantan Timur 75558, Indonesia</description>
+			<LookAt>
+				<longitude>115.993683</longitude>
+				<latitude>1.527133</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>115.993683,1.527133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Liangpran</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_183</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,240 m Gunung Liangpran, Long Isun, Long Pahangai, West Kutai, Kalimantan Timur 75769, Indonesia</description>
+			<LookAt>
+				<longitude>114.3670802</longitude>
+				<latitude>1.044574829</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.3670802,1.044574829,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

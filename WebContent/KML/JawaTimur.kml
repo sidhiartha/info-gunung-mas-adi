@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JawaTimur.kml</name>
+	
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Folder>
+		<name>Jawa Timur</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Welirang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_11</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Welirang, Ngadirenggo/Htn, Wlingi, Blitar, Jawa Timur 66184, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>112.45,-7.916667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kawi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_12</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Kawi, Ngadirenggo/Htn, Wlingi, Blitar, Jawa Timur 66184, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>112.45,-7.92,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Anjasmoro</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_13</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Anjasmoro, Hutan, Gondang, Mojokerto, Jawa Timur 61372, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>112.507778,-7.753611,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Panderman</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_14</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Panderman, Kehutanan, Batu, Jawa Timur 65311, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>112.496667,-7.904166999999999,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ringgit</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_15</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,249 m Jawa Timur </description>
+			<LookAt>
+				<longitude>113.84654</longitude>
+				<latitude>-7.724063</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.84654,-7.724063,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wilis</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_16</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Wilis, Ngliman, Sawahan, Nganjuk, Jawa Timur 64475, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>111.758,-7.808,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Baluran</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_17</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,265 m Jawa Timur Baluran, Wonorejo, Banyuputih, Situbondo, Jawa TImur 68374, Indonesia</description>
+			<LookAt>
+				<longitude>114.3629307</longitude>
+				<latitude>-7.845617749</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.3629307,-7.845617749000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Penanggungan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_18</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,653 m Jawa Timur Penanggungan, Sukoreno, Prigen, Pasuruan, Jawa Timur 67157, Indonesia</description>
+			<LookAt>
+				<longitude>112.6203592</longitude>
+				<latitude>-7.615393329</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.6203592,-7.615393329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lamongan (Tarub)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_19</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,667 m Jawa Timur, Mt Lamongan, Sumberpetung, Ranuyoso, Lumajang, Jawa Timur 67357, Indonesia</description>
+			<LookAt>
+				<longitude>113.3463</longitude>
+				<latitude>-7.97542</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.3463,-7.97542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kelud</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_20</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,724 m Jawa Timur Kelut, Karangrejo, Garum, Blitar, Jawa Timur 66182, Indonesia</description>
+			<LookAt>
+				<longitude>112.313927</longitude>
+				<latitude>-7.93477</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.313927,-7.93477,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Liman</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_21</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,563 m Jawa Timur Gunung Ngliman, Banaran, Pulung, Ponorogo, Jawa Timur 63481, Indonesia</description>
+			<LookAt>
+				<longitude>111.751531</longitude>
+				<latitude>-7.824313</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.751531,-7.824313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Butak</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_22</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,868 m Jawa Timur  Mt Butak, Ngadirenggo/Htn, Wlingi, Blitar, Jawa Timur 66184, Indonesia</description>
+			<LookAt>
+				<longitude>112.464998</longitude>
+				<latitude>-7.955431</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.464998,-7.955431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Argopuro</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_23</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,088 m Jawa Timur Gunung Argapura, Kalianan, Krucil, Probolinggo, Jawa Timur 67288, Indonesia</description>
+			<LookAt>
+				<longitude>113.566405</longitude>
+				<latitude>-7.964364</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.566405,-7.964364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lawu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_24</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,265 m Jawa Timur Mt Lawu, Gondosuli, Tawangmangu, Karanganyar, Central Java 57792, Indonesia</description>
+			<LookAt>
+				<longitude>111.194638</longitude>
+				<latitude>-7.627264</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>111.194638,-7.627264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Raung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_25</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,332 m Jawa Timur Raung, Gunosari, Tlogosari, Bondowoso, Jawa Timur 68272, Indonesia</description>
+			<LookAt>
+				<longitude>114.046314</longitude>
+				<latitude>-8.125769999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.046314,-8.125769999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ijen (Merapi)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_26</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,803 m Jawa Timur Ijen, Tamansari, Licin, Banyuwangi, Jawa Timur 68454, Indonesia</description>
+			<LookAt>
+				<longitude>114.261977</longitude>
+				<latitude>-8.062683</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.261977,-8.062683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Bawean (Gunung Tengghi)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_27</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 655 m Jawa Timur Gunung Tinggi, Gunungteguh, Sangkapura, Gresik, Jawa Timur 61181, Indonesia</description>
+			<LookAt>
+				<longitude>112.652424</longitude>
+				<latitude>-5.788517</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.652424,-5.788517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bromo (Pananjakan)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_28</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,782 m Jawa Timur Mt Bromo, Taman Nasional Bromo Tengger Semeru, Ngadas, Sukapura, Probolinggo, Jawa Timur 67254, Indonesia</description>
+			<LookAt>
+				<longitude>112.9521129</longitude>
+				<latitude>-7.903737765</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.9521129,-7.903737765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arjuno</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_29</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,339 m Jawa Timur (Jawa Timur) Gunung Arjuna, Pecalukan, Prigen, Pasuruan, Jawa Timur 67157, Indonesia</description>
+			<LookAt>
+				<longitude>112.5900101</longitude>
+				<latitude>-7.764129679</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.5900101,-7.764129679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Semeru</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_30</value>
+      			</Data>
+			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,676 m Jawa Timur Semeru, Taman Nasional Bromo Tengger Semeru, Ngadas, Poncokusumo, Malang, Jawa Timur 65157, Indonesia</description>
+			<LookAt>
+				<longitude>112.92268</longitude>
+				<latitude>-8.107889</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.92268,-8.107889,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

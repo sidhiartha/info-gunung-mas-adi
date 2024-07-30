@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>lawu.kml</name>
+	<StyleMap id="msn_ranger_station2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="lineStyle21">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_2">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_23">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_40">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="h1787457">
+		<IconStyle>
+			<Icon>
+				<href>http://s1.wklcdn.com/wikiloc/images/pictograms/ge/1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_pink-blank21">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station00">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m1787457">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#n17874570</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h1787457</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_11">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="lineStyle">
+		<LineStyle>
+			<color>f03399ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ranger_station3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_14">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_pink-blank5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag1">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_pink-blank">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ranger_station000">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_pink-blank2">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_31">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_pink-blank7">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_40">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_50">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_pink-blank">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_41">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ranger_station001">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_32">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_5">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_pink-blank11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_pink-blank0">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_41">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ranger_station4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_3">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_pink-blank010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_21</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_pink-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_5">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="h3132196">
+		<IconStyle>
+			<Icon>
+				<href>http://s1.wklcdn.com/wikiloc/images/pictograms/ge/1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="lineStyle2">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ranger_station1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="n3132196">
+		<IconStyle>
+			<Icon>
+				<href>http://s1.wklcdn.com/wikiloc/images/pictograms/ge/1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="n17874570">
+		<IconStyle>
+			<Icon>
+				<href>http://s1.wklcdn.com/wikiloc/images/pictograms/ge/1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_41</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station000">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_50">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_10">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_21">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_pink-blank0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_1">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m3132196">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#n3132196</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h3132196</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="lineStyle20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#lineStyle2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#lineStyle21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_32">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Lawu</name>
+		<open>1</open>
+		<Folder>
+			<name>Lawu1</name>
+			<Placemark>
+				<name>Gunung Lawu 3.265 m</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://sc.wklcdn.com/wikiloc/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=3132196">Gunung Lawu 3.265 m</a></font><br/>near Cemarasewu, Jawa Timur (Indonesia) by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=4507">RocJumper</a></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/view.do?id=3132196"><img width="400" src="http://sc.wklcdn.com/image_0/4507/3132196/elevProfile.png" alt="Elevation Profile"/></a></td></tr><tr><td width="40"><img src="http://s1.wklcdn.com/wikiloc/images/pictograms/1.png" alt=""/></td><td align="left"><font style="color:black"><b>Walking distance:</b> 9.32 mi. - 15 km.</font><br/><br/><b>Elevation min:</b> 1881 meters <b>max:</b> 3269 meters<br/><b>Uphill:</b> 1381 meters <b>down:</b> 1363 meters<br/><b>Type: </b>One way<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=1770456"><img width="60" height="60" src="http://s0.wklcdn.com/image_0/4507/3132196/1770456_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=1770457"><img width="60" height="60" src="http://s1.wklcdn.com/image_0/4507/3132196/1770457_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=1770459"><img width="60" height="60" src="http://s0.wklcdn.com/image_0/4507/3132196/1770459_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=1770460"><img width="60" height="60" src="http://s1.wklcdn.com/image_0/4507/3132196/1770460_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=1770461"><img width="60" height="60" src="http://s2.wklcdn.com/image_0/4507/3132196/1770461_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=1770462"><img width="60" height="60" src="http://s0.wklcdn.com/image_0/4507/3132196/1770462_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">Salida con moto desde Tawamangu con moto por 30.000.
+
+Subida desde la ruta normal donde es todo un camino bastante buen estado de adoquine... <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/view.do?id=3132196">read more &rarr;</a></td></tr><tr><td align="right" colspan="2"><br/><a style="color:#2B60DE"href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your trail to wikiloc.com &rarr;</b></a></td></tr></table>]]></description>
+				<styleUrl>#m3132196</styleUrl>
+				<Point>
+					<coordinates>111.191582,-7.664323,1881.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#lineStyle20</styleUrl>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							111.191487,-7.664209,1882.9 111.191614,-7.664329,1883.4 111.191505,-7.664316,1883.4 111.191616,-7.663263000000001,1899.2 111.192083,-7.662741,1907.9 111.192444,-7.661777,1926.1 111.19297,-7.661385999999999,1947.3 111.19298,-7.660556999999999,1968 111.193714,-7.659241,1984.8 111.193893,-7.658094,2005.9 111.194268,-7.65806,2013.1 111.194588,-7.657812999999999,2019.9 111.194847,-7.656301,2043.9 111.195375,-7.656477,2059.3 111.195757,-7.655773,2080.4 111.195549,-7.655261000000001,2088.6 111.195474,-7.654239999999999,2112.2 111.194979,-7.653437,2123.7 111.195133,-7.652636,2131.4 111.195104,-7.652426,2134.3 111.194907,-7.652367,2142 111.195155,-7.652185,2150.6 111.194886,-7.651895000000001,2163.1 111.195139,-7.651659,2170.8 111.195093,-7.650950000000001,2187.6 111.194515,-7.650745999999999,2210.2 111.194623,-7.650572000000001,2220.3 111.194276,-7.650586999999999,2237.1 111.194103,-7.650282,2250.1 111.194689,-7.648914,2310.2 111.195139,-7.648662000000001,2317.9 111.195282,-7.648308999999999,2322.2 111.195313,-7.647956000000001,2332.3 111.195149,-7.647697,2341.9 111.195284,-7.646964,2357.3 111.195075,-7.646135000000001,2393.8 111.195436,-7.644852,2431.3 111.195147,-7.644298,2453.9 111.195261,-7.643649,2468.3 111.195009,-7.643370000000001,2476 111.19504,-7.642948,2488.5 111.195227,-7.642666,2505.8 111.195027,-7.642333,2520.2 111.195228,-7.642013,2517.4 111.195178,-7.641758,2526 111.19536,-7.641651,2537.1 111.195344,-7.641089,2554.8 111.194935,-7.639322,2646.2 111.194688,-7.639108,2659.6 111.194902,-7.638966999999999,2672.1 111.194895,-7.638099000000001,2729.8 111.194708,-7.637918999999999,2739.4 111.194904,-7.636848,2800.9 111.194625,-7.636469,2825.9 111.194697,-7.636165999999999,2839.9 111.19447,-7.635805,2864.9 111.194601,-7.635488,2884.1 111.194762,-7.635445,2894.2 111.194656,-7.635239,2903.8 111.194858,-7.635217,2912 111.194688,-7.634902000000001,2930.699999999999 111.19508,-7.634634,2968.2 111.195216,-7.634217,2999.9 111.195163,-7.633864,3031.2 111.195466,-7.633721,3055.7 111.195725,-7.633265000000001,3080.2 111.195696,-7.632991000000001,3097 111.196209,-7.632952,3109 111.196093,-7.632675,3114.3 111.196601,-7.632131,3111.4 111.197192,-7.630773999999999,3143.7 111.197499,-7.630355,3151.8 111.197825,-7.630241,3154.7 111.198053,-7.629869,3153.7 111.197879,-7.629358,3155.2 111.198041,-7.628795,3157.1 111.197902,-7.628726,3154.7 111.198037,-7.62851,3156.6 111.196982,-7.627878,3161 111.197904,-7.627629,3163.8 111.19711,-7.62691,3164.8 111.196863,-7.626847999999999,3161 111.196995,-7.6265,3154.7 111.19693,-7.625891,3148.9 111.196785,-7.625696,3146.099999999999 111.196899,-7.625105,3148.9 111.196753,-7.624958999999999,3151.8 111.196657,-7.625046000000001,3154.2 111.196797,-7.624979999999999,3151.8 111.196789,-7.625098,3151.3 111.19663,-7.62518,3155.7 111.195265,-7.624929,3163.8 111.194767,-7.62513,3170.1 111.194789,-7.625972,3197.5 111.194453,-7.627089,3249.4 111.194599,-7.627293,3261.4 111.194406,-7.627405999999999,3268.6 111.194031,-7.627283,3262.4 111.19345,-7.627426999999999,3259 111.192753,-7.627279999999999,3235.9 111.191999,-7.626683,3189.3 111.191347,-7.626969,3174.9 111.18965,-7.628886,3156.2 111.189703,-7.629148,3148.5 111.189498,-7.629776,3139.8 111.1891,-7.630042000000001,3141.3 111.188639,-7.630002,3148.9 111.18793,-7.630338000000001,3161 111.18718,-7.631447,3153.3 111.186268,-7.631956000000001,3146.5 111.186061,-7.632151,3142.2 111.186185,-7.632315,3139.8 111.186063,-7.632259,3140.8 111.185835,-7.632511,3124.9 111.185305,-7.632702,3102.3 111.185186,-7.632349,3100.9 111.184944,-7.632219,3086 111.185231,-7.631839,3076.8 111.184938,-7.631544,3050.9 111.184658,-7.631772,3046.6 111.184368,-7.632335,3038.4 111.184558,-7.631576,3033.1 111.184469,-7.631531,3026.9 111.184042,-7.632439,3014.4 111.184159,-7.633384,2996.1 111.184111,-7.633251,2993.2 111.183489,-7.633625,2941.8 111.183308,-7.633138,2935.5 111.183245,-7.633431,2929.8 111.183549,-7.634139000000001,2914.9 111.184015,-7.634565,2906.2 111.184197,-7.63457,2903.3 111.184557,-7.635146,2890.3 111.184311,-7.635481000000001,2872.6 111.184374,-7.635681,2863.9 111.184071,-7.635721000000001,2853.3 111.183844,-7.636270999999999,2816.8 111.183631,-7.636207,2811.5 111.183784,-7.636519999999999,2803.3 111.183467,-7.63642,2795.7 111.18377,-7.636814000000001,2788.9 111.183325,-7.636635,2778.8 111.183558,-7.637139,2768.7 111.1834,-7.636928999999999,2763 111.183078,-7.636940000000001,2757.7 111.18337,-7.637527,2745.7 111.183068,-7.637282999999999,2738 111.182873,-7.637296,2732.2 111.183079,-7.637942999999999,2718.3 111.182994,-7.637749,2714.4 111.182558,-7.637572,2707.2 111.182901,-7.638334,2691.8 111.182675,-7.638590999999999,2679.3 111.182715,-7.638750000000001,2671.2 111.182516,-7.638842,2663.5 111.182448,-7.639182999999999,2646.7 111.181879,-7.638563,2636.1 111.181913,-7.638346,2633.2 111.181628,-7.638066999999999,2630.8 111.181665,-7.637659,2624.5 111.181404,-7.637865,2618.3 111.181491,-7.638394,2611.1 111.181394,-7.638502,2609.2 111.181632,-7.638926,2602 111.181662,-7.639751,2590.4 111.18183,-7.640013999999999,2589 111.182942,-7.639757,2577.9 111.183227,-7.639172,2575 111.18358,-7.639034000000001,2575 111.183524,-7.639476,2576.5 111.183847,-7.640856,2547.2 111.184377,-7.640762,2543.3 111.184703,-7.641399,2543.3 111.186496,-7.641238,2533.7 111.186927,-7.640799,2530.3 111.187084,-7.641782,2521.7 111.187685,-7.64219,2500.1 111.187888,-7.642687,2489.5 111.18791,-7.643097000000001,2479.9 111.187785,-7.643288,2473.6 111.188323,-7.643413,2461.1 111.188027,-7.643892000000001,2444.8 111.188306,-7.643963,2430.8 111.188189,-7.644178999999999,2424.1 111.188412,-7.644294999999999,2412.6 111.188174,-7.645054999999999,2382.3 111.188211,-7.645277,2374.1 111.188488,-7.645327999999999,2369.3 111.188586,-7.645954999999999,2349.6 111.188129,-7.647108,2316.4 111.188173,-7.647576,2303.5 111.188397,-7.647637,2294.8 111.188443,-7.648101,2282.3 111.188224,-7.64843,2272.7 111.188499,-7.648957999999999,2256.4 111.188686,-7.650139,2223.7 111.187917,-7.651055,2208.3 111.187844,-7.651529000000001,2199.2 111.187419,-7.652184,2192.4 111.187533,-7.652523,2183.8 111.187243,-7.653487999999999,2163.6 111.187331,-7.653892,2154.9 111.187167,-7.654318999999999,2142.4 111.187218,-7.655281,2114.6 111.187057,-7.655315,2109.8 111.18711,-7.655641,2094.4 111.186985,-7.655839,2088.6 111.187182,-7.656038000000001,2081.9 111.186905,-7.656635,2071.8 111.187242,-7.656885,2062.7 111.187023,-7.657262,2057.4 111.187066,-7.657637,2053.5 111.186612,-7.658116,2036.2 111.186837,-7.658432,2025.2 111.186686,-7.658437999999999,2019.9 111.187137,-7.658948,2008.8 111.186766,-7.659425,1997.3 111.187074,-7.659860999999999,1988.6 111.187005,-7.660517,1987.2 111.18725,-7.660862000000001,1986.2 111.187309,-7.661442000000001,1982.4 111.186976,-7.662499000000001,1966 111.186997,-7.663012999999999,1955 111.1868,-7.663199,1948.3 111.186918,-7.66361,1939.6 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Puncak Hargo Dumilah</name>
+				<description>Coordinates lat, lon (WGS84)-7.6274000  111.19440</description>
+				<LookAt>
+					<longitude>111.1897234840257</longitude>
+					<latitude>-7.644640430236355</latitude>
+					<altitude>0</altitude>
+					<heading>-1.370744364432695e-08</heading>
+					<tilt>44.99945575008456</tilt>
+					<range>6707.067912112523</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1944,-7.6274,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Lawu2</name>
+			<Placemark>
+				<name>INDONESIA: Gunung Lawu 3.265m</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://sc.wklcdn.com/wikiloc/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=1787457">INDONESIA: Gunung Lawu 3.265m</a></font><br/>near Cemarasewu, East Java (Indonesia) by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=105412">Afalqo</a></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/view.do?id=1787457"><img width="400" src="http://sc.wklcdn.com/image_3/105412/1787457/elevProfile.png" alt="Elevation Profile"/></a></td></tr><tr><td width="40"><img src="http://s1.wklcdn.com/wikiloc/images/pictograms/1.png" alt=""/></td><td align="left"><font style="color:black"><b>Walking distance:</b> 7.46 mi. - 12 km.</font><br/><br/><b>Elevation min:</b> 1899 meters <b>max:</b> 3235 meters<br/><b>Uphill:</b> 1429 meters <b>down:</b> 1427 meters<br/><b>Type: </b>One way<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=632584"><img width="60" height="60" src="http://s1.wklcdn.com/image_3/105412/1787457/632584_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=632586"><img width="60" height="60" src="http://s0.wklcdn.com/image_3/105412/1787457/632586_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=632587"><img width="60" height="60" src="http://s1.wklcdn.com/image_3/105412/1787457/632587_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">Ruta feta amb Google Earth.</td></tr><tr><td align="right" colspan="2"><br/><a style="color:#2B60DE"href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your trail to wikiloc.com &rarr;</b></a></td></tr></table>]]></description>
+				<styleUrl>#m1787457</styleUrl>
+				<Point>
+					<coordinates>111.1914316099137,-7.664614012464881,1899</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#lineStyle</styleUrl>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							111.1916093062609,-7.663496369495988,1910 111.1914635449648,-7.663138043135405,1925 111.1919428221881,-7.662797067314386,1922 111.1924543697387,-7.661703983321786,1957 111.1930413544178,-7.661342136561871,1971 111.1928576231003,-7.660723552107811,1981 111.1937064584345,-7.659163428470492,1998 111.1938727553934,-7.658081324771047,2028 111.1942344345152,-7.658043606206775,2031 111.194601142779,-7.657575393095613,2042 111.1948215868324,-7.656265050172806,2062 111.195325171575,-7.656483398750424,2068 111.195700513199,-7.655730787664652,2078 111.1954856012017,-7.655128883197904,2100 111.1954208090901,-7.654253812506795,2124 111.1949401069432,-7.653467422351241,2139 111.1951396800578,-7.652161521837115,2178 111.1948430445045,-7.651911238208413,2177 111.1950950045139,-7.651677718386054,2190 111.1950171366334,-7.651004986837506,2209 111.194453202188,-7.650753445923328,2220 111.1945692077279,-7.65054389834404,2234 111.1941431555897,-7.650516238063574,2237 111.1940348614007,-7.650389922782779,2252 111.1940235458314,-7.65009630471468,2270 111.1943940259516,-7.649284433573484,2312 111.1943204328418,-7.649188041687012,2312 111.1945110373199,-7.649086201563478,2312 111.1945656873286,-7.648747572675347,2327 111.1950300447643,-7.648533917963505,2324 111.1952128540725,-7.648124545812607,2333 111.1952138599008,-7.647799327969551,2341 111.1950198188424,-7.647597407922149,2356 111.1952095013112,-7.64683130197227,2369 111.1950551066548,-7.646671710535884,2383 111.1949608940631,-7.646007863804698,2400 111.1950746364892,-7.645777361467481,2411 111.1949889734387,-7.645608298480511,2422 111.1953579448164,-7.644772790372372,2438 111.1950465571135,-7.644198881462216,2454 111.1951819248497,-7.64360879547894,2465 111.1949157994241,-7.643395811319351,2488 111.1949682701379,-7.642866913229227,2513 111.1951649934053,-7.642650241032243,2505 111.1950038932264,-7.642279006540775,2517 111.1952560208738,-7.642032327130437,2512 111.1951695196331,-7.641796292737126,2520 111.1953084077686,-7.641626140102744,2520 111.1952376645058,-7.640630789101124,2577 111.1947115324438,-7.639082316309214,2660 111.1948556173593,-7.6389897800982,2677 111.1948586348444,-7.638524919748306,2695 111.1947019770741,-7.63823390007019,2714 111.194862825796,-7.638033572584391,2727 111.1946053337306,-7.637875154614449,2751 111.1947660986334,-7.637586565688252,2771 111.1946837045252,-7.636904446408153,2806 111.1948711238801,-7.636687774211168,2826 111.1944657750428,-7.636285861954093,2847 111.1946376878768,-7.636064579710364,2873 111.1943319160491,-7.635644394904375,2914 111.1949354968965,-7.634370261803269,2992 111.1949065793306,-7.633686382323504,3062 111.1952573619783,-7.633416401222348,3083 111.1952845193446,-7.633139882236719,3096 111.1955028679222,-7.632928155362606,3094 111.1954541690648,-7.632641075178981,3103 111.1959892697632,-7.63255650177598,3100 111.1958524771035,-7.632346199825406,3111 111.1967252846807,-7.631266778334975,3110 111.1969098541886,-7.630561608821154,3139 111.1978644691408,-7.629528371617198,3139 111.1977412551641,-7.629064433276653,3140 111.1979670636356,-7.628382313996553,3127 111.1967765819281,-7.62759642675519,3171 111.1953383311629,-7.627527695149183,3219 111.1950402706861,-7.6270433049649,3219 111.194728128612,-7.626859741285443,3226 111.1932737845927,-7.626967951655388,3218 111.1920919362456,-7.626772569492459,3181 111.1913914605975,-7.627080185338855,3173 111.1907444614917,-7.6279550883919,3142 111.1898745037615,-7.62827267870307,3138 111.1895762756467,-7.628613151609898,3130 111.1895759403706,-7.629020344465971,3127 111.1893447674811,-7.629344556480646,3115 111.1887126881629,-7.629759628325701,3110 111.1883545294404,-7.62968142516911,3105 111.187483901158,-7.630150392651558,3116 111.1866486445069,-7.631023535504937,3116 111.1858589854091,-7.631453443318605,3089 111.1856107134372,-7.632006565108895,3103 111.1852635350078,-7.632348965853453,3089 111.1842282023281,-7.632616935297847,3017 111.1840839497745,-7.633565096184611,2984 111.1842644959688,-7.634936710819602,2889 111.1837429739535,-7.635640455409885,2837 111.1836395412683,-7.636220902204514,2822 111.1837450694293,-7.636734796687961,2795 111.1834247969091,-7.637392692267895,2714 111.1840663477778,-7.637631576508284,2762 111.1842375062406,-7.638286957517266,2714 111.1840896494687,-7.638785429298878,2683 111.1840885598212,-7.639751946553588,2621 111.1837532836944,-7.640138268470764,2581 111.1841078381985,-7.640654006972909,2563 111.1838091909885,-7.641393793746829,2500 111.1836173292249,-7.642602296546102,2427 111.1838481668383,-7.643252648413181,2404 111.1840846203268,-7.643516343086958,2401 111.1855482682586,-7.644377080723643,2404 111.1858017370105,-7.644983176141977,2391 111.1863212473691,-7.645296491682529,2371 111.1867305357009,-7.64609151519835,2322 111.187121970579,-7.646491918712854,2299 111.187267228961,-7.648689737543464,2227 111.1876729130745,-7.649438073858619,2202 111.1879182513803,-7.650274587795138,2193 111.1875128187239,-7.650656215846539,2200 111.1869472078979,-7.652383893728256,2153 111.1869080644101,-7.65388953499496,2122 111.1865131929517,-7.655202057212591,2085 111.1862223409116,-7.657033419236541,2035 111.1867667455226,-7.65977212227881,1948 111.1865989398211,-7.66227780841291,1921 111.1867579445243,-7.663422022014856,1901 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Puncak</name>
+				<description>Coordinates lat, lon (WGS84)-7.6268976  111.19416</description>
+				<LookAt>
+					<longitude>111.190699936973</longitude>
+					<latitude>-7.645617450239332</latitude>
+					<altitude>0</altitude>
+					<heading>2.999999465339137</heading>
+					<tilt>65.99994691466759</tilt>
+					<range>15009.25824097668</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.19416,-7.6268976,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sendang</name>
+				<description>Coordinates lat, lon (WGS84)-7.6284699  111.19784</description>
+				<LookAt>
+					<longitude>111.190699936973</longitude>
+					<latitude>-7.645617450239332</latitude>
+					<altitude>0</altitude>
+					<heading>2.999999465339137</heading>
+					<tilt>65.99994691466759</tilt>
+					<range>15009.25824097668</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.19784,-7.6284699,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cemoro Sewu Ranger Post/Basecamp</name>
+				<description>Coordinates lat, lon (WGS84)-7.6646140  111.19143
+
+Perizinan dapat dilakukan di Base Camp Cemoro Sewu yang dikelola oleh organisasi pecinta alam PGL (Paguyuban Giri Lawu). Biaya perizinan adalah Rp 5.000,00 per orang. Di base camp ini para pendaki bisa bermalam dan beristirahat. Di sekitar base camp juga terdapat beberapa warung makan.</description>
+				<LookAt>
+					<longitude>111.190699936973</longitude>
+					<latitude>-7.645617450239332</latitude>
+					<altitude>0</altitude>
+					<heading>2.999999465339137</heading>
+					<tilt>65.99994691466759</tilt>
+					<range>15009.25824097668</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ranger_station2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.19143,-7.664614,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cemoro Kandang</name>
+				<description>Coordinates lat, lon (WGS84)-7.6635189  111.18673</description>
+				<LookAt>
+					<longitude>111.190699936973</longitude>
+					<latitude>-7.645617450239332</latitude>
+					<altitude>0</altitude>
+					<heading>2.999999465339137</heading>
+					<tilt>65.99994691466759</tilt>
+					<range>15009.25824097668</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ranger_station1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.18673,-7.663518899999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos Taman Sari Bawah</name>
+				<description>Coordinates lat, lon (WGS84)-7.6538657  111.18722</description>
+				<LookAt>
+					<longitude>111.190699936973</longitude>
+					<latitude>-7.645617450239332</latitude>
+					<altitude>0</altitude>
+					<heading>2.999999465339137</heading>
+					<tilt>65.99994691466759</tilt>
+					<range>15009.25824097668</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.18722,-7.6538657,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>Puncak Hargo Dumilah</name>
+			<description>Di Puncak Gunung Lawu terdapat bangunan tugu penanda sebagai titik triangulasi. Pucak Gunung Lawu berada di ketinggian 3266 mdpl. Puncak Gunung Lawu terletak di kordinat 111o11’39’’E, 07o37’37’’S. Dari Puncak Gunung Lawu kita bisa melihat kawah berupa dataran berpasir. Ke arah timur laut dari puncak akan terlihat komplek menyerupai perkampungan, itu adalah Hargo Dalem. Di komplek Hargo Dalem terdapat warung dan bangunan tempat singgah Raja Kasunanan Surakarta.</description>
+			<LookAt>
+				<longitude>111.1939776645572</longitude>
+				<latitude>-7.626557565217177</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000148497275880088</heading>
+				<tilt>59.98484895217302</tilt>
+				<range>1003.630430749086</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_flag</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>111.1941666666667,-7.626944444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>Cemoro Kandang</name>
+			<Placemark>
+				<name>Pos 5</name>
+				<description>Setelah sampai di sisi utara terdapat percabangan jalan setapak menuju Hargo Dalem (Pesemayaman Prabu Brawijaya) dan Hargo Dumilah (Puncak Lawu). Pertigaan inilah Pos 5 berupa tempat datar yang tidak begitu luas dan tidak ada bangunan selther</description>
+				<LookAt>
+					<longitude>111.1878098017352</longitude>
+					<latitude>-7.633598971642643</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001909173936488224</heading>
+					<tilt>57.86969917184118</tilt>
+					<range>1692.559768540721</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_5</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1947222222222,-7.625277777777778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 4 Cokrosuryo</name>
+				<description>Pos 4 atau Pos Cokrosuryo berupa bangunan rumah dari batu. Di sekitarnya terdapat tempat yang cukup luas untuk mendirikan beberapa tenda. Di pos ini terdapat memoriam seorang pendaki.</description>
+				<LookAt>
+					<longitude>111.1878098017352</longitude>
+					<latitude>-7.633598971642643</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001909173936488224</heading>
+					<tilt>57.86969917184118</tilt>
+					<range>1692.559768540721</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_40</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1863888888889,-7.631944444444444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 3 Penggik</name>
+				<description>bangunan rumah seng yang terletak di pinggir jurang. Tidak terdapat tempat yang cukup datar di sekitar pos untuk mendirikan tenda kecuali di dalam pos.</description>
+				<LookAt>
+					<longitude>111.190699936973</longitude>
+					<latitude>-7.645617450239332</latitude>
+					<altitude>0</altitude>
+					<heading>2.999999465339137</heading>
+					<tilt>65.99994691466759</tilt>
+					<range>15009.25824097668</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_32</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1844444444445,-7.635277777777778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos Bayangan</name>
+				<description>yang berupa bangunan rumah dari kayu.</description>
+				<LookAt>
+					<longitude>111.1864373261406</longitude>
+					<latitude>-7.636956786455095</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002239878929547041</heading>
+					<tilt>57.17279294929277</tilt>
+					<range>2892.992845855791</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank7</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1819444444445,-7.64,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 2 Taman Sari Atas</name>
+				<description>berupa bangunan rumah batu mirip dengan pos 1. Kita juga bisa mendirikan tenda di sekitar bangunan pos 2.</description>
+				<LookAt>
+					<longitude>111.1872708576946</longitude>
+					<latitude>-7.649186808748855</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001129768901071852</heading>
+					<tilt>57.17418978442785</tilt>
+					<range>3143.589130235037</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1877777777778,-7.642499999999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 1 Taman Sari Bawah</name>
+				<description>berupa rumah dari batu yang lumayan besar untuk bermalam sekitar 7 – 8 orang pendaki. Di Pos 1 ini terdapat warung makan, sehingga pendaki sering beristirahat lama di pos ini. Pos 1 mempunyai kordinat</description>
+				<LookAt>
+					<longitude>111.1890286487264</longitude>
+					<latitude>-7.65527958702766</latitude>
+					<altitude>0</altitude>
+					<heading>3.948334393073277</heading>
+					<tilt>60.01132778799974</tilt>
+					<range>969.8712414880647</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1886111111111,-7.65,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Basecamp Cemoro Kandang</name>
+				<description>Perizinan dapat dilakukan di Base Camp Cemoro Kandang yang dikelola oleh organisasi pecinta alam AGL (Anak Gunung Lawu). Biaya perizinan adalah Rp 6.000,00 per orang. Di base camp ini para pendaki bisa bermalam dan beristirahat.
+
+Sebaiknya kita mengambil air dari base camp sebelum mulai mendaki. Jalur menuju Pos 1 dimulai dengan hutan pinus dengan jalan setapak yang landai. Kita akan menyusuri punggungan lebar yang semakin menyempit ketika memasuki daerah hutan dengan pohon yang mulai beragam. Jalur cenderung landai hingga menuju Pos</description>
+				<LookAt>
+					<longitude>111.200457845281</longitude>
+					<latitude>-7.636747235358248</latitude>
+					<altitude>0</altitude>
+					<heading>3.948624251519925</heading>
+					<tilt>25.39842572377249</tilt>
+					<range>10167.54072586686</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ranger_station4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1869444444444,-7.663055555555557,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cemoro Sewu</name>
+			<Placemark>
+				<name>Basecamp Cemoro Sewu</name>
+				<LookAt>
+					<longitude>111.1897287534583</longitude>
+					<latitude>-7.662650303012473</latitude>
+					<altitude>0</altitude>
+					<heading>3.948241519776496</heading>
+					<tilt>60.00740688722708</tilt>
+					<range>901.4194999529678</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ranger_station</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1916666666667,-7.663055555555557,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos Perhutani 1</name>
+				<LookAt>
+					<longitude>111.1951056021832</longitude>
+					<latitude>-7.659607514879982</latitude>
+					<altitude>0</altitude>
+					<heading>3.750376544036742</heading>
+					<tilt>27.04434227033433</tilt>
+					<range>4817.143278767097</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1936111111111,-7.656111111111113,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos Perhutani 2</name>
+				<LookAt>
+					<longitude>111.1943065424291</longitude>
+					<latitude>-7.657109232740838</latitude>
+					<altitude>0</altitude>
+					<heading>3.923079308977785</heading>
+					<tilt>60.0051721568549</tilt>
+					<range>438.8080774398783</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1944444444444,-7.651944444444445,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 1 Wesen Wesen</name>
+				<description>Ada sebuah bangunan permanen dan warung-warung di depannya yang buka ketika musim pendakian atau ziara</description>
+				<LookAt>
+					<longitude>111.1917994796595</longitude>
+					<latitude>-7.656714041662209</latitude>
+					<altitude>0</altitude>
+					<heading>3.923419831732828</heading>
+					<tilt>60.01759232325392</tilt>
+					<range>1838.155086231019</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1944444444444,-7.650111111111111,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 2 Watu Gedeg</name>
+				<description>Di sekitar tebing di dekat Pos 2 ini terdapat tempat datar yang bisa memuat belasan pendaki dan bisa digunakan untuk mebuka kurang lebih lima tenda.</description>
+				<LookAt>
+					<longitude>111.194462984918</longitude>
+					<latitude>-7.652001968584323</latitude>
+					<altitude>0</altitude>
+					<heading>3.917258129542622</heading>
+					<tilt>58.12833858984161</tilt>
+					<range>848.8343171960604</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_22</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1938888888889,-7.641111111111111,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 3 Watu Gede</name>
+				<description>erupa sebuah bangunan pondok permanen dengan beberapa tempat datar di sekitarnya</description>
+				<LookAt>
+					<longitude>111.1904943260125</longitude>
+					<latitude>-7.649411673212491</latitude>
+					<altitude>0</altitude>
+					<heading>3.917227779186819</heading>
+					<tilt>57.98059059967124</tilt>
+					<range>4331.915458606701</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1944444444444,-7.636944444444443,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 4 Watu Kapur</name>
+				<description>tidak terdapat bangunan apa pun sehingga kadang pendaki tidak sadar bahwa tempat ini adalah pos pendakian, hanya sebuah tiang kecil berdiri di atas bebatuan kapur. Pos 4 ini terletak pada kordinat 111o11’43’’E, 07o38’00’’S dengan sedikit tempat datar.</description>
+				<LookAt>
+					<longitude>111.1904943260125</longitude>
+					<latitude>-7.649411673212491</latitude>
+					<altitude>0</altitude>
+					<heading>3.917227779186819</heading>
+					<tilt>57.98059059967124</tilt>
+					<range>4331.915458606701</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1952777777778,-7.633333333333334,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pos 5 Jalatunda</name>
+				<description>tidak terdapat pondok atau bangunan, hanya tempat datar luas untuk mendirikan puluhan tenda. Di dekat kawasan datar ini di sebelah kiri jalur menuju Sendang Drajat akan ditemui sebuah sumur yang berisi air yang disebut sebagai Sumur Jalatunda</description>
+				<LookAt>
+					<longitude>111.1904943260125</longitude>
+					<latitude>-7.649411673212491</latitude>
+					<altitude>0</altitude>
+					<heading>3.917227779186819</heading>
+					<tilt>57.98059059967124</tilt>
+					<range>4331.915458606701</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_50</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1963888888889,-7.630000000000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sendang Drajad</name>
+				<description>Di Sendang Drajat terdapat mata air yang bersih, tempat datar yang cukup banyak, cerukan-cerukan gua yang lebar, serta sebuah warung yang memiliki pondokan tempat menginap. Sendang Drajat ini adalah lokasi favorit pendaki untuk bermalam sebelum melanjutkan perjalanan ke Puncak Lawu (Hargo Dumilah)</description>
+				<LookAt>
+					<longitude>111.1904943260125</longitude>
+					<latitude>-7.649411673212491</latitude>
+					<altitude>0</altitude>
+					<heading>3.917227779186819</heading>
+					<tilt>57.98059059967124</tilt>
+					<range>4331.915458606701</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1980555555556,-7.628888888888889,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Warung Mbok Yem</name>
+				<LookAt>
+					<longitude>111.1904943260125</longitude>
+					<latitude>-7.649411673212491</latitude>
+					<altitude>0</altitude>
+					<heading>3.917227779186819</heading>
+					<tilt>57.98059059967124</tilt>
+					<range>4331.915458606701</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>111.1980555555556,-7.625833333333333,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Merbabu-Sama_2.kml</name>
+	<open>1</open>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="basecamp">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<Style id="sn_point_pendakian">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	
+	<StyleMap id="point pendakian">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_point_pendakian</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_point_pendakian</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_green_line">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00cc00</color>
+			<width>4.5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur alternatif">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_green_line</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_green_line</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>cc00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	
+	<StyleMap id="jalur utama">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_campground">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_campground">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="campground">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_caution">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<StyleMap id="kawah">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_puncak">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="puncak">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_puncak</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_puncak</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sn_water">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>images/Water_Icon_Small.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sh_water">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>images/Water_Icon_Small.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		
+	<StyleMap id="sumber air">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_water</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_water</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Folder>
+		<name>Merbabu-Sama_2</name>
+		<Placemark>
+			<name>Percabangan Wekas, Puncak (Pos Watu Tulis)</name>
+			<description>
+			<![CDATA[
+			<b>Percabangan / Pertemuan jalur Cuntel, Tekelan, Wekas dan puncak Gunung Merbabu : </b> Penanda batas wilayah, ada juga pendaki yang menyebut tempat ini pos Watu Tulis<br>
+			]]>
+			</description>
+			<Camera>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4372369591152</longitude>
+				<latitude>-7.44592012604588</latitude>
+				<altitude>58.74236789753626</altitude>
+				<heading>112.9484622145702</heading>
+				<tilt>52.4756057911216</tilt>
+				<roll>2.428326801424451</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#point pendakian</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_01</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4376866697393,-7.446045690151602,2829</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Percabangan Wekas, Puncak)--(Helipad)</name>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4380112340163</longitude>
+				<latitude>-7.446575878393641</latitude>
+				<altitude>0</altitude>
+				<heading>-1.034476205284679e-09</heading>
+				<tilt>44.99946960265711</tilt>
+				<range>999.9109302254782</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_02</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.4376853194444,-7.44604550118969,0 110.4377330174954,-7.446101413106282,0 110.4377723934305,-7.4461667086773,0 110.4377941080902,-7.446215603226906,0 110.4378268983807,-7.446268411866608,0 110.4378724952171,-7.446335515565169,0 110.4379155645527,-7.446412954588405,0 110.4379922352428,-7.446584141142344,0 110.438029206425,-7.446651808494948,0 110.4380784537199,-7.446740021076016,0 110.4381536895346,-7.446829268073332,0 110.4382145318235,-7.446905150108427,0 110.4382570763864,-7.446969969606657,0 110.4382542071115,-7.447024705967913,0 110.4382083636914,-7.447095343885158,0 110.4382301288252,-7.447169716019644,0 110.4382547478733,-7.447210923734036,0 110.4382764643002,-7.447243809191545,0 110.4382939490603,-7.447290385308504,0 110.4383263337001,-7.44731497887765,0 110.4383585081058,-7.447337065141067,0 110.4383775334222,-7.447355843622974,0 110.4383889602293,-7.447401867651625,0 110.4383999893919,-7.447429561810114,0 110.438412411282,-7.447450197040485,0 110.4384228271435,-7.447485527125819,0 110.4384149526365,-7.447507455339258,0 110.4384475562869,-7.447547596833852,0 110.4384804411487,-7.447549959308477,0 110.4385212585431,-7.447556166380437,0 110.4385723749723,-7.447559837469448,0 110.4386263172179,-7.447564608132443,0 110.4386524980586,-7.447557825231251,0 110.4386706140609,-7.447553086576529,0 110.4386926024488,-7.447546181593531,0 110.4387127947582,-7.44753866044149,0 110.4387281937239,-7.447533696223458,0 110.4387567461217,-7.447528946150146,0 110.438775528039,-7.447520103423773,0 110.4387923308547,-7.44751232825022,0 110.4388152038376,-7.447502757167381,0 110.4388606067263,-7.447521779573318,0 110.4388911808608,-7.447520557060633,0 110.4389169608675,-7.447520240388176,0 110.438948684527,-7.447522922734066,0 110.4389678285653,-7.447525197489915,0 110.439022482774,-7.447546591106799,0 110.4390488218844,-7.44755660894414,0 110.4390918145426,-7.447571462077971,0 110.4391423061499,-7.44755205941977,0 110.4392472383096,-7.44753325024486,0 110.4393099802097,-7.447551903383866,0 110.4393478177956,-7.447539210103121,0 110.4393998714504,-7.447554627791531,0 110.4394587244256,-7.447567311409534,0 110.4395367762867,-7.447561783869766,0 110.4396578768336,-7.447524131798079,0 110.4397512730868,-7.447499227429267,0 110.4398203311109,-7.447489253120597,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Memoriam</name>
+			<open>1</open>
+			<description>
+			<![CDATA[
+			<b>Memoriam Rustam M Papinka : </b> Di jumpai melalui jalur Cuntel, Tekelan, Wekas gunung Merbabu<br>
+			]]>
+			</description>
+			<styleUrl>#point pendakian</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_20</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.438350048,-7.447472932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Helipad</name>
+			<description>
+			<![CDATA[
+<b>Helipad : </b>Area datar yang dapat digunakan untuk pendaratan heli, dilokasi ini juga terdapat tempat untuk mendirikan tenda, ada juga yang menyebut lokasi ini puncak Helipad<br>
+			]]>	
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.439746310838</longitude>
+				<latitude>-7.447517581038107</latitude>
+				<altitude>0</altitude>
+				<heading>138.6649783053192</heading>
+				<tilt>55.43892182044471</tilt>
+				<range>50.3912635918481</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point pendakian</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_03</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4397732749487,-7.447436388596854,2900</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Camping Ground Helipad</name>
+			<description>
+			<![CDATA[
+			<b>Camping Ground Helipad : </b> Lokasi yang direkomendasikan untuk bermalam dan mendirikan tenda<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.439746310838</longitude>
+				<latitude>-7.447517581038107</latitude>
+				<altitude>0</altitude>
+				<heading>138.6649783053192</heading>
+				<tilt>55.43892182044471</tilt>
+				<range>50.3912635918481</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#campground</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_04</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>110.4397614514659,-7.447418567822753,2900</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Helipad)--(Puncak Geger Sapi)</name>
+			<description>
+			Kondisi jalur menanjak dan terbuka
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4393804001268</longitude>
+				<latitude>-7.4473088398331</latitude>
+				<altitude>0</altitude>
+				<heading>-1.697039814863114e-09</heading>
+				<tilt>44.99946856528999</tilt>
+				<range>999.7563926960987</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_05</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.4398202466156,-7.447489476343751,0 110.4398962830866,-7.447526547849249,0 110.4399812537149,-7.447563843899037,0 110.4401340109244,-7.44757903017986,0 110.4402374620992,-7.447583363391133,0 110.4403828737382,-7.447598458374956,0 110.4404796898935,-7.447610089885232,0 110.440528745112,-7.447613277013393,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Kawah Candradimuka</name>
+			<description>
+			<![CDATA[
+			<b>Kawah Candradimuka / Condrodimuko : </b>Kawah gunung merbabu dapat dijumpai jika mendaki melalui jalur Cuntel, Tekalan, dan Wekas. Di dekat area kawah terdapat mata air<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.438796688858</longitude>
+				<latitude>-7.448623728350233</latitude>
+				<altitude>0</altitude>
+				<heading>138.6651014198731</heading>
+				<tilt>56.99476093825326</tilt>
+				<range>365.6147624291367</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#kawah</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_06</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4384582299522,-7.448742018137637,2880</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sumber Air Kawah</name>
+			<description>
+			<![CDATA[
+			<b>Sumber Air Kawah Candradimuka : </b>Berupa mata air di dekat kawah, terdapat air yang dapat diminum dan air yang mengandung belerang<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4395148528958</longitude>
+				<latitude>-7.448187703481049</latitude>
+				<altitude>0</altitude>
+				<heading>138.665063294878</heading>
+				<tilt>58.1566619878695</tilt>
+				<range>153.6528416793166</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#sumber air</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_07</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>110.4395513748572,-7.448147941919977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Geger Sapi</name>
+			<description>
+			<![CDATA[
+			<b>Puncak Geger Sapi Gunung Merbabu : </b>Puncak kecil berbentuk punuk (punggung) sapi<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4404329798121</longitude>
+				<latitude>-7.447694394409721</latitude>
+				<altitude>0</altitude>
+				<heading>138.6650015836825</heading>
+				<tilt>56.27226864415144</tilt>
+				<range>62.94560761319482</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#puncak</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_08</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4405281230503,-7.447613172578102,3002</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jembatan Setan (Puncak Geger Sapi)--(Percabangan Syarif, Kenteng Songo)</name>
+			<description>
+			<![CDATA[
+			<b>Jembatan Setan : </b> Jalur menanjak terjal menyerupai jembatan yang menghubungkan Puncak Geger Sapi dengan percabangan puncak Syarif dan Kenteng Songo. Kondisi jalur curam berupa bebatuan lepas dengan sisi kiri dan kanan jurang<br>
+			<div align="center"> <br><img src="images/jembatan setan.jpg" width="400" > </div>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.441221997906</longitude>
+				<latitude>-7.448734343414976</latitude>
+				<altitude>0</altitude>
+				<heading>5.30124119934289e-10</heading>
+				<tilt>44.99946844188867</tilt>
+				<range>999.7513744516922</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_09</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.4405296855919,-7.447613026080806,0 110.4406013127682,-7.447609117962956,0 110.4406870231121,-7.447631997532133,0 110.4407543446993,-7.447689074446421,0 110.4408660950416,-7.447829973622715,0 110.4409398101242,-7.447921847657514,0 110.4409770331222,-7.448008592638074,0 110.4410204920432,-7.448149679152636,0 110.4410227288032,-7.448228491910207,0 110.4410033825571,-7.448338874374635,0 110.4410099750879,-7.448421413819543,0 110.4410103435182,-7.448453957153463,0 110.4410705623278,-7.448527002707641,0 110.4411249618375,-7.448597812882178,0 110.4411815495824,-7.448676143654871,0 110.4412201187464,-7.448761821174384,0 110.4412576670127,-7.448811892267569,0 110.4412934468147,-7.448880487462029,0 110.441333644607,-7.448972725242298,0 110.4413910004266,-7.449049540034115,0 110.4414341723648,-7.449111133665129,0 110.4415042648536,-7.449197858480789,0 110.4415520262788,-7.449292033647146,0 110.4416070355789,-7.449379056360324,0 110.4416810668914,-7.44943617154643,0 110.4417495603581,-7.44947869897914,0 110.4418027199465,-7.449514903750823,0 110.4418443060098,-7.449550665021707,0 110.4418494891266,-7.449684443973777,0 110.4418920735395,-7.44976176325863,0 110.4419113592184,-7.449798160738686,0 110.4418939334951,-7.449850354377035,0 110.4418880009437,-7.449868757795038,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Percabangan Syarif, Kenteng Songo</name>
+			<description>
+			<![CDATA[
+			<b>Percabangan jalur menuju puncak Sarif dan puncak Kenteng Songo : </b>
+Di lokasi ini terdapat area datar untuk bermalam dan mendirikan s/d 3 tenda<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.441898429258</longitude>
+				<latitude>-7.449836560110664</latitude>
+				<altitude>0</altitude>
+				<heading>-1.445097741741675e-09</heading>
+				<tilt>44.9997370446527</tilt>
+				<range>999.9999881116446</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point pendakian</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_10</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4418984309346,-7.449836558353401,3090</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Camping Ground Percabangan Syarif, Kenteng Songo</name>
+			<description>
+			<![CDATA[
+			<b>Camping Ground Percabangan puncak Syarif dan Kenteng Songo : </b>Lokasi yang direkomendasikan untuk bermalam dan mendirikan tenda (s/d 3 tenda)<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4418462409503</longitude>
+				<latitude>-7.44986429843995</latitude>
+				<altitude>0</altitude>
+				<heading>2.33211309519099e-09</heading>
+				<tilt>44.99973705004798</tilt>
+				<range>1000.000435081639</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#campground</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_11</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>110.4418462382446,-7.449864302077092,3090</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Percabangan Syarif, Kenteng Songo)--(Puncak Syarif)</name>
+			<description>
+			Kondisi jalur terbuka dan menanjak
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.442293746534</longitude>
+				<latitude>-7.449749408263855</latitude>
+				<altitude>0</altitude>
+				<heading>1.903168383214083e-09</heading>
+				<tilt>44.99973705073202</tilt>
+				<range>1000.000533434213</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_12</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.4418895389114,-7.449868182693719,0 110.4419225438281,-7.449877982516965,0 110.4419627538555,-7.44987687965434,0 110.441993685993,-7.449821177316173,0 110.4420438458732,-7.449788440421123,0 110.4421043708836,-7.449765270958569,0 110.4421370125083,-7.449768315397457,0 110.4421667592272,-7.449760347992994,0 110.4422230902811,-7.449752759604313,0 110.4422781234641,-7.44975193720882,0 110.4423161936351,-7.449750207272011,0 110.4423495800982,-7.449724627992868,0 110.4423869996424,-7.449693372755106,0 110.4424084344032,-7.449679202703487,0 110.4424629699785,-7.44967715939233,0 110.4425152874436,-7.449675605528308,0 110.4425346181213,-7.449708010696271,0 110.4425545493927,-7.449738073140739,0 110.4425832759177,-7.449744613145354,0 110.4426356056537,-7.44975776133309,0 110.4426783769234,-7.449766482969943,0 110.4427271882416,-7.44977446940191,0 110.442754363954,-7.449781319197982,0 110.4427826997845,-7.449785517633026,0 110.4427664520838,-7.449752938630095,0 110.4427395186143,-7.44973777943609,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Syarif</name>
+			<description>
+			<![CDATA[
+			<b>Puncak Syarif Gunung Merbabu : </b>Salah satu puncak utama dari tiga puncak tertinggi di gunung Merbabu, Tempat terbaik di gunung Merbabu untuk menikmati matahari terbit<br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2014-01-03T16:00:18Z</when>
+</gx:TimeStamp>
+				<longitude>110.4426213810495</longitude>
+				<latitude>-7.449664481580523</latitude>
+				<altitude>0</altitude>
+				<heading>138.6635645124621</heading>
+				<tilt>48.82441980973304</tilt>
+				<range>49.0552331714609</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#puncak</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_13</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4427413312086,-7.44974192909104,3125</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Percabangan Syarif, Kenteng Songo)--(Puncak Kenteng Songo)</name>
+			<description>
+			Kondisi jalur terbuka relatif datar
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4412013652072</longitude>
+				<latitude>-7.451772707442676</latitude>
+				<altitude>0</altitude>
+				<heading>-2.153410449858281e-10</heading>
+				<tilt>44.99947019024162</tilt>
+				<range>1000.036552585391</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_14</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.4418876216711,-7.449867783067813,0 110.4418620517729,-7.449877322364411,0 110.4418324448307,-7.449904093140279,0 110.4417907648055,-7.449928878771148,0 110.4417452107744,-7.449977343285176,0 110.4417089204655,-7.450016141586921,0 110.4416758893606,-7.45004738650514,0 110.4416500652253,-7.450072716354982,0 110.4416128779827,-7.45011002291403,0 110.4415790773389,-7.450148257893703,0 110.4415442153447,-7.450189595660493,0 110.441496062197,-7.450240788255946,0 110.441444226052,-7.450297154842451,0 110.4414052333467,-7.450364988451007,0 110.4413599376365,-7.450458087635295,0 110.4412962363715,-7.450536689746,0 110.4412537166104,-7.450637855428934,0 110.4412310577483,-7.450686113187309,0 110.4412133854371,-7.450747231253011,0 110.4412392880356,-7.450845313482564,0 110.441363223776,-7.450955512581482,0 110.4414274160452,-7.451055622723554,0 110.4413299033353,-7.451211713204165,0 110.4412556468066,-7.451297274627999,0 110.4411799924642,-7.451589748949082,0 110.4411023684417,-7.45163796529065,0 110.4409707152226,-7.451887338851823,0 110.4409899432051,-7.452089957154162,0 110.4409866750636,-7.452274106307277,0 110.4409831358585,-7.452428105935677,0 110.440933422956,-7.45249298184159,0 110.4409425339666,-7.452551240038955,0 110.4409220782698,-7.452598211934462,0 110.4409200789642,-7.452638084874058,0 110.4408979787478,-7.452685930789909,0 110.4408959868337,-7.452749721822419,0 110.4408940031451,-7.452841415116113,0 110.4408549716482,-7.452907984014887,0 110.4408468231225,-7.453005684665317,0 110.4408980058654,-7.453177258932827,0 110.4408868796889,-7.453202457059651,0 110.4408337696999,-7.453205929235367,0 110.440792806687,-7.453268991159452,0 110.4407566701495,-7.453293116624662,0 110.440707778932,-7.453248491434329,0 110.4407234739544,-7.453388161766038,0 110.4406965726411,-7.453554062502873,0 110.4406974376074,-7.453632594067265,0 110.4407008694744,-7.453718023761177,0 110.440679397559,-7.453736377657601,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Memoriam</name>
+			<description>
+			<![CDATA[
+			<b>Memoriam Sugiyanto</b>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4407222197641</longitude>
+				<latitude>-7.453249997710421</latitude>
+				<altitude>0</altitude>
+				<heading>-2.118436275442238e-09</heading>
+				<tilt>44.9997370487002</tilt>
+				<range>1000.000507886616</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point pendakian</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_15</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>110.4407222222222,-7.453250000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Kenteng Songo</name>
+			<description>
+			<![CDATA[
+			<b>Puncak Kenteng Songo : </b>Salah satu puncak utama dari tiga puncak tertinggi di gunung Merbabu<br>
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.4407470506209</longitude>
+				<latitude>-7.453865430975275</latitude>
+				<altitude>0</altitude>
+				<heading>138.6650207558836</heading>
+				<tilt>60.00329857902386</tilt>
+				<range>42.6098879717011</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#puncak</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_16</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4406800428743,-7.453736656641042,3147</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>(Puncak Kenteng Songo) - (Puncak Triangulasi)</name>
+			<description>
+			Kondisi jalur terbuka dan sedikit menanjak
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4400471344687</longitude>
+				<latitude>-7.453974855358474</latitude>
+				<altitude>0</altitude>
+				<heading>-1.886235905228642e-10</heading>
+				<tilt>44.99973705076594</tilt>
+				<range>1000.000756536766</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#jalur utama</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_17</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					110.4406790864904,-7.453737136550298,0 110.4406629067928,-7.453791962742787,0 110.44051852904,-7.453727147827864,0 110.440487236605,-7.453838664140367,0 110.440434293633,-7.453893850560906,0 110.4403899952553,-7.453940518993518,0 110.4403242929416,-7.453959181913214,0 110.440261591825,-7.453973301634883,0 110.4402011762955,-7.453987753184215,0 110.4401070433374,-7.454009577137589,0 110.4400407786261,-7.453987163828967,0 110.4397689111678,-7.454090549532046,0 110.4396992578752,-7.454219710040085,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Ondorante</name>
+			<description>
+			<![CDATA[
+			<b>Puncak Ondorante</b><br>
+			]]>
+			</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-09-29T02:13:32Z</when>
+</gx:TimeStamp>
+				<longitude>110.4410277764864</longitude>
+				<latitude>-7.451361110759756</latitude>
+				<altitude>0</altitude>
+				<heading>-1.112972294823199e-09</heading>
+				<tilt>44.99973704676166</tilt>
+				<range>1000.000105614322</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#puncak</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_18</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>110.4410277777778,-7.451361111111111,3100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puncak Triangulasi</name>
+			<description>
+			<![CDATA[
+			<b>Puncak Triangulasi : </b>Salah satu puncak utama dari tiga puncak tertinggi di gunung merbabu<br>
+			]]>
+			</description>
+			<LookAt>
+				<longitude>110.4397166075858</longitude>
+				<latitude>-7.454283971942335</latitude>
+				<altitude>0</altitude>
+				<heading>-157.5549325700033</heading>
+				<tilt>45.70580405243341</tilt>
+				<range>90.12132329299843</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#puncak</styleUrl>
+			<ExtendedData>
+				<Data name="pmId">
+					<value>pl-002_06_19</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>110.4396972619774,-7.45422163473037,3115</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

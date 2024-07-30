@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PapuaBarat.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Papua Barat</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Ransiki</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_267</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Ransiki, Sabri, Ransiki, Manokwari, West Papua 98355, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>134.151389,-1.494444,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sisomeri</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_268</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Sisomeri, Inyaub, Sururey, Manokwari, West Papua 98354, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.895833,-1.423056,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Mebo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_269</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Mebo, Kwok I, Hingk, Manokwari, West Papua 98354, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.993056,-1.162778,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Itsjwei</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_270</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Itsjwei, Meifowoska, Testega, Manokwari, West Papua 98358, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.597778,-1.000278,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sekai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_271</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Sekai, Kebar Barat / Senopi, Senopi, Manokwari, West Papua 98372, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>132.666667,-1.033333,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kabek</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_272</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Kabek, Hutan, Tambrauw, West Papua 98473, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>132.533333,-1.033333,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Faumai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_273</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Faumai, Moyeba, North Moskona, Teluk Bintuni, West Papua 98373, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>132.766667,-1.266667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sigemeri</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_274</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Sigemeri, Banjar Ausoy (Sp IV), Manimeri, Teluk Bintuni, West Papua 98364, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.637778,-2.031389,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Baik</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_275</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Baik, Malakuli, Karas, Fakfak, West Papua 98662, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>132.766667,-3.683333,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Orupe</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_276</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Orupe, Jarati, Kaimana, West Papua 98654, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.961111,-3.474167,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Yabuare</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_277</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Yabuare, Borogerba, Teluk Arguni, Kaimana, West Papua 98653, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.919167,-3.0275,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wetur</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_278</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Wetur, Tamoge, Nikiwar, Teluk Wondama, West Papua 98361, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>134.143333,-2.485,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Waropen</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_279</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Waropen, Inyora, Naikere, Teluk Wondama, West Papua 98362, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>134.39,-2.98,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arfak Mountains</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_280</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Arfak Mountains, Figoud, Menyambouw, Manokwari, West Papua 98315, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.966667,-1.083333,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gemsini</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_281</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Gemsini, Andang, Menyambouw, Manokwari, West Papua 98315, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.966667,-1.116667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arfak (Umsini)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_282</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,955 m Papua Barat</description>
+			<LookAt>
+				<longitude>133.979555</longitude>
+				<latitude>-1.156326</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>133.979555,-1.156326,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tohkier</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_283</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,461 m Papua Barat Gunung Tohkier, Bikar, Sausapor, Tambrauw, West Papua 98473, Indonesia</description>
+			<LookAt>
+				<longitude>132.3133977</longitude>
+				<latitude>-0.654160223</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>132.3133977,-0.654160223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Irau</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_284</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,500 m Bon Irau, Sasui, Amberbaken, Manokwari, West Papua 98371, Indonesia</description>
+			<LookAt>
+				<longitude>132.8891583</longitude>
+				<latitude>-0.6616782839999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>132.8891583,-0.6616782839999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wondiwoi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_285</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,187 m Pegunungan Wondiwoi, Taman Nasional Teluk Cenderawasih, Maniwak, Wasior, Teluk Wondama, Papua Barat 98362, Indonesia</description>
+			<LookAt>
+				<longitude>134.5842137</longitude>
+				<latitude>-2.733248595</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>134.5842137,-2.733248595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Niefeb</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_286</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,726 m Gunung Niefeb, Jijga, Testega, Manokwari, West Papua 98358, Indonesia</description>
+			<LookAt>
+				<longitude>133.5433407</longitude>
+				<latitude>-1.125885431</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>133.5433407,-1.125885431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kumawa</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_287</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,680 m Pegunungan Kumawa, Edor, Buruway, Kaimana, West Papua 98656, Indonesia</description>
+			<LookAt>
+				<longitude>133.010785</longitude>
+				<latitude>-3.915228</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>133.010785,-3.915227999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fak Fak Mountains</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_288</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,490 m Papua Barat</description>
+			<LookAt>
+				<longitude>132.551738</longitude>
+				<latitude>-2.963357663</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>132.551738,-2.963357663,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Batanta (Kalaikut)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_289</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,184 m Gunung Batanta, Wailebet, Selat Sagawin, Raja Ampat, West Papua 98484, Indonesia</description>
+			<LookAt>
+				<longitude>130.624031</longitude>
+				<latitude>-0.857636</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>130.624031,-0.857636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Fudi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_290</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Fudi, Wanggita, Teluk Arguni, Kaimana, West Papua 98653, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>133.810556,-3.206111,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fudi (Gnowo)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_291</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,663 m Papua Barat</description>
+			<LookAt>
+				<longitude>133.8641797</longitude>
+				<latitude>-3.361666855</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>133.8641797,-3.361666855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mandum</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_292</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 977 m Papua Barat</description>
+			<LookAt>
+				<longitude>131.0150843</longitude>
+				<latitude>-0.202505572</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>131.0150843,-0.202505572,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

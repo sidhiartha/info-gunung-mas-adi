@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lampung.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Lampung</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Seminung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_196</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,881 m Gunung Seminung, Lombok, Lombok Seminung, West Lampung, Lampung 34879, Indonesia</description>
+			<LookAt>
+				<longitude>103.963545</longitude>
+				<latitude>-4.910921</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>103.963545,-4.910921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sebesi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_197</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 844 m Gunung Sebesi, Tejang Pulau Sebesi, Rajabasa, South Lampung, Lampung 35552, Indonesia</description>
+			<LookAt>
+				<longitude>105.48282858</longitude>
+				<latitude>-5.95433562</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.48282858,-5.95433562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Krakatau</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_198</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Krakatoa, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>105.4,-6.116667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rakata</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_199</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 813 m Lampung</description>
+			<LookAt>
+				<longitude>105.4399825</longitude>
+				<latitude>-6.145814386</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.4399825,-6.145814386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Anak Krakatau</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_200</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 324 m Lampung </description>
+			<LookAt>
+				<longitude>105.42341287</longitude>
+				<latitude>-6.10118447</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.42341287,-6.10118447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tebak</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_201</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,115 m Tangkit Tebak, Dwikora, Bukit Kemuning, North Lampung, Lampung 34176, Indonesia</description>
+			<LookAt>
+				<longitude>104.57543</longitude>
+				<latitude>-5.0084</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>104.57543,-5.0084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tanggamus</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_202</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,102 m Gunung Tanggamus, Hutan, Tanggamus, Lampung 35384, Indonesia</description>
+			<LookAt>
+				<longitude>104.67480398</longitude>
+				<latitude>-5.42709765</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>104.67480398,-5.42709765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pesawaran (Ratai)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_203</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,682 m Gunung Pesawaran, Hutan, Pesawaran, Lampung 35368, Indonesia</description>
+			<LookAt>
+				<longitude>105.095197</longitude>
+				<latitude>-5.513347</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.095197,-5.513347,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rajabasa</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_204</value>
+      			</Data>
+      			</ExtendedData>
+			<description>Elevation: 1,281 m Rajabasa, Hutan, South Lampung, Lampung 35551, Indonesia</description>
+			<LookAt>
+				<longitude>105.627386</longitude>
+				<latitude>-5.781564</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>105.627386,-5.781564,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

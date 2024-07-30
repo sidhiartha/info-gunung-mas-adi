@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SumatraSelatan.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sumatra Selatan</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Gunung Belirang-Beriti</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_354</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Belirang-Beriti, Napal Licin, Ulu Rawas, Musi Rawas, South Sumatra 31669, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>102.18,-2.82,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pasu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_355</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,078 Bukit Basu, Air Duku, Selupu Rejang, Rejang Lebong, Bengkulu 39119, Indonesia</description>
+			<LookAt>
+				<longitude>102.621782</longitude>
+				<latitude>-3.338151924</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>102.621782,-3.338151924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bukit Jempol</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_356</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 900 m Bukit Serelo, Padang, South Merapi, Lahat, South Sumatra 31471, Indonesia</description>
+			<LookAt>
+				<longitude>103.671023</longitude>
+				<latitude>-3.811568</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>103.671023,-3.811568,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Gumai</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_357</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 1,786 m Sumatera Selatan</description>
+			<LookAt>
+				<longitude>103.278362</longitude>
+				<latitude>-3.883681</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>103.278362,-3.883681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Dempo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_358</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 3,173 m Mt Dempo, Dempo Makmur, North Pagar Alam, Pagar Alam City, South Sumatra 31593, Indonesia</description>
+			<LookAt>
+				<longitude>103.127995</longitude>
+				<latitude>-4.015477</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>103.127995,-4.015477,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pesagi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_359</value>
+      			</Data>
+      			</ExtendedData>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Elevation: 2,219 m Gunung Pesagi, Remanam Jaya, South Warkuk Ranau, South Ogan Komering Ulu, South Sumatra 34811, Indonesia</description>
+			<LookAt>
+				<longitude>104.14645</longitude>
+				<latitude>-4.92337</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>104.14645,-4.92337,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

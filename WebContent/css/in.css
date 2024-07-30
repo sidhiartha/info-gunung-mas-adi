@@ -1,0 +1,135 @@
+html {
+	font-family: arial;
+}
+
+/********** css halaman utama ***********/
+div.box_utama {
+	position: relative;
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	border-radius: 20px;
+	box-shadow: 4px -4px 15px 2px #333333;
+	height: 220px;
+	width: 760px;
+	margin: auto;
+	margin-top: 16%;
+}
+
+#logo {
+	position: absolute;
+	margin:auto;
+	top: -95px;
+	left: 0;
+    right: 0;
+    bottom: 0;
+	height: 100px;
+}
+
+fieldset {
+	border: 1px solid #FF3300;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 0 2px #FF3300, 0 0 0 2px #FF5050, 2px 2px 4px 4px #CCCCCC;
+	-webkit-box-shadow: 0 0 0 2px #Ff3300, 0 0 0 2px #FF5050, 2px 2px 4px 4px #CCCCCC;
+	-o-box-shadow: 0 0 0 2px #Ff3300, 0 0 0 2px #FF5050, 2px 2px 4px 4px #CCCCCC;
+	box-shadow: 0 0 0 1px #FF3300, 0 0 0 2px #FF5050, 2px 2px 2px 2px #CCCCCC;
+	background-color: #FFFFFF;
+
+}
+
+#pos_1 {
+	margin: 150px 0 0;
+	left: 45px;
+	display: block;
+	height: 16px;
+	position: relative;
+	width: 85%;
+}
+
+#i {
+	background-color: #ffffff;
+	border: none;
+	color: #000000;
+	left: 3px;
+	margin-left: 5px;
+	margin-top: 2px;
+	outline: medium none;
+	position: absolute;
+	top:3px;
+	width: 94%;
+	font-size: 18px;
+	/*background: url("../images/sbicon_small.png") no-repeat scroll 100% 0% transparent;*/
+}
+
+#calculate label#masukkan {
+	display: block;
+	height: 23px;
+	left: 10px;
+	position: absolute;
+	top: -30px;
+	color: rgb(141, 141, 141);
+	font-size: 18px;
+	width: 100%;
+}
+/********** end css halaman utama ***********/
+
+/**************** about ****************/
+div.box {
+	position: relative;
+	border: 1px solid #CCCCCC;
+	background: #f0f0f0;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px 1px #CCCCCC;
+	height: auto;
+	width: 75%;
+	margin: auto auto auto auto;
+	padding: 20px 10px 40px 10px;
+}
+
+#habout {
+	font-family:verdana;
+	font-size:15px;
+	color:#eaeaea;
+	background: #3c3c3c;
+/* 	font-style:bold; */
+	text-indent: 0px;
+	margin: 30px 100px 10px 100px;
+}
+
+#pabout {
+	text-indent: 30px;
+	font-family:verdana;
+	font-size:14px;
+	text-align:justify;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 100px 15px 100px;
+	color:#333333;
+}
+/************* about end **************/
+
+#bantuan_1 {
+	background:#FFFFFF;
+  color: #686868;
+  font-size: 12px;
+  position: absolute;
+  right: 32px;
+  bottom: 12px;
+}
+
+#bantuan_1:hover {
+  color: #FFFFFF;
+}
+
+#p_bantuan {
+	text-indent:30px;
+	font-family:verdana;
+	font-size:18px;
+	text-align:justify;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 100px 15px 100px;
+	color:#333333;
+}
+
+/**end bantuan*/
+

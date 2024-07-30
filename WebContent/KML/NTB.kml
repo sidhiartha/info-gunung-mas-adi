@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NTB.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Folder>
+		<name>NTB</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Nangi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_35</value>
+      			</Data>
+      		</ExtendedData>
+			<open>1</open>
+			<description>Gunung Nangi, Mekar Sari, Suela, Lombok Timur, Nusa Tenggara Barat 83654, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>116.584722,-8.424721999999999,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kondo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_36</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Kondo, Taman Nasional Gunung Rinjani, Aik Berik, Batukliang Utara, Lombok Tengah, Nusa Tenggara Barat 83354, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>116.406111,-8.434722000000001,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Doro Oromboha</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_37</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,605 m Doro Oromboha, Bumi Pajo, Donggo, Bima, Nusa Tenggara Barat 84162, Indonesia</description>
+			<LookAt>
+				<longitude>118.54248</longitude>
+				<latitude>-8.393549999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>118.54248,-8.393549999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Olet Sangenges</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_38</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,840 m Olet Sangenges, Bao Desa, Batulanteh, Sumbawa, Nusa Tenggara Barat 84353, Indonesia</description>
+			<LookAt>
+				<longitude>117.12245</longitude>
+				<latitude>-8.580298000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.12245,-8.580298000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Olet Takan</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_39</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,343 m Olet Takan, Ropang, Sumbawa, Nusa Tenggara Barat 84372, Indonesia</description>
+			<LookAt>
+				<longitude>117.4898993</longitude>
+				<latitude>-8.836924959999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.4898993,-8.836924959999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Doro Maria</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_40</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,444 m Doro Maria, Riamau, Wawo, Bima, Nusa Tenggara Barat 84152, Indonesia</description>
+			<LookAt>
+				<longitude>118.9241941</longitude>
+				<latitude>-8.482451704000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>118.9241941,-8.482451704000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sangeang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_41</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,949 m Sangeang Api, Sangiang, Wera, Bima, Nusa Tenggara Barat 84152, Indonesia</description>
+			<LookAt>
+				<longitude>119.069796</longitude>
+				<latitude>-8.19589</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.069796,-8.19589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tambora</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_42</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,722 m Tambora, Kawinda Toi, Tambora, Bima, Nusa Tenggara Barat 84191, Indonesia</description>
+			<LookAt>
+				<longitude>117.958804</longitude>
+				<latitude>-8.246612000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>117.958804,-8.246612000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rinjani</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_43</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 3,726 m Gunung Rinjani, Taman Nasional Gunung Rinjani, Sembalun Lawang, Sembalun, Lombok Timur, Nusa Tenggara Barat 83656, Indonesia</description>
+			<LookAt>
+				<longitude>116.45813</longitude>
+				<latitude>-8.411659999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>116.45813,-8.411659999999999,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

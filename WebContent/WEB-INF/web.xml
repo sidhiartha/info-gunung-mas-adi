@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>GunungBeta</display-name>
+  <welcome-file-list>
+<!--    <welcome-file>utama.jsp</welcome-file>-->
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Token</display-name>
+    <servlet-name>Token</servlet-name>
+    <servlet-class>servlet.Token</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Token</servlet-name>
+    <url-pattern>/token</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>WordsChecker</display-name>
+    <servlet-name>WordsChecker</servlet-name>
+    <servlet-class>servlet.WordsChecker</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WordsChecker</servlet-name>
+    <url-pattern>/WordsChecker</url-pattern>
+    <url-pattern>/wordschecker</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GenerateBahasa</display-name>
+    <servlet-name>GenerateBahasa</servlet-name>
+    <servlet-class>servlet.GenerateBahasa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GenerateBahasa</servlet-name>
+    <url-pattern>/GenerateBahasa</url-pattern>
+    <url-pattern>/generatebahasa</url-pattern>
+  </servlet-mapping>
+</web-app>

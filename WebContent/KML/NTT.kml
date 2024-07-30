@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NTT.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>NTT</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Sukaria</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_44</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Gunung Sukaria, Sokoria, East Ndona, Ende, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>121.77,-8.792,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ndete Napu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_45</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Ndete Napu, Kel. Detusoko, Detusoko, Ende, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>121.78,-8.720000000000001,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Mutis</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_46</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,417 m Nuaf Nefomasi, Nenas, Fatumnasi, South Timor Tengah, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>124.22755</longitude>
+				<latitude>-9.56047</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.22755,-9.56047,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Fatu Timau</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_47</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,774 m Nuaf Timau, Oelfatu, Amfoang Barat Laut, Kupang, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>123.93999</longitude>
+				<latitude>-9.58061</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.93999,-9.58061,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Dola Koyakoya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_48</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,821 m Dola Koyakoya, Mausamang, East Alor, Alor, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>125.021651</longitude>
+				<latitude>-8.22049</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>125.021651,-8.22049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Delaki</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_49</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Delaki, Central Pantar, Alor, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>124.075278,-8.517511000000001,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sirung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_50</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Mt Sirung, Mauta, Central Pantar, Alor, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>124.133333,-8.516667,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sirung (Sopak)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_51</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,336 m Nusa Tenggara Timur</description>
+			<LookAt>
+				<longitude>124.1053909</longitude>
+				<latitude>-8.519167025</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.1053909,-8.519167025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pura</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_52</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,015 m Nusa Tenggara Timur</description>
+			<LookAt>
+				<longitude>124.3500147</longitude>
+				<latitude>-8.300005262999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.3500147,-8.300005262999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tuntuli</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_53</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 959 m Woto Tuntuli, Mawar, East Pantar, Alor, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>124.2883792</longitude>
+				<latitude>-8.307596248999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>124.2883792,-8.307596248999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ili Ujolewung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_54</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,523 m Ile Ujelewungkedang, Normal, Omesuri, Lembata, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>123.7757767</longitude>
+				<latitude>-8.21355385</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.7757767,-8.21355385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ili Labalekang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_55</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,621 m Ile Labalekang, Lamalera A, Wulandoni, Lembata, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>123.38432</longitude>
+				<latitude>-8.54454</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.38432,-8.54454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ili Werung (Lama Heru)</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_56</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,030 m Iliwerung, Lerek, Atadei, Lembata, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>123.563357</longitude>
+				<latitude>-8.519914</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.563357,-8.519914,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lewotolo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_57</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,449 m Lewotolo, Lamagute, East Ile Ape, Lembata, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>123.5078122</longitude>
+				<latitude>-8.274055389999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.5078122,-8.274055389999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ili Boleng</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_58</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,658 m Iliboleng, Tuwagoetobi, Witihama, East Flores, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>123.256258</longitude>
+				<latitude>-8.345548000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.256258,-8.345548000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ili Mandiri</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_59</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,484 m Ile Mandiri, Waibalun, Larantuka, East Flores, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>122.9677965</longitude>
+				<latitude>-8.314284819999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.9677965,-8.314284819999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ili Wukoh</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_60</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,431 m Nusa Tenggara Timur</description>
+			<LookAt>
+				<longitude>122.6550254</longitude>
+				<latitude>-8.570903080000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.6550254,-8.570903080000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Lewotobi</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_61</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,703 m Lewotobi, Nurri, Ilebura, East Flores, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>122.7818528</longitude>
+				<latitude>-8.554522879</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.7818528,-8.554522879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Rokatenda</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_62</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 875 m Paluweh, Tuanggeo, Palue, Sikka, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>121.710096</longitude>
+				<latitude>-8.328998</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.710096,-8.328998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Egon</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_63</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,708 m Mt Egon, Nangatobong, Waigete, Sikka, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>122.4550254</longitude>
+				<latitude>-8.675868027</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.4550254,-8.675868027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ebulobo</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_64</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,137 m Ebulobo, Kelewae, Boawae, Nagekeo, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>121.1905212</longitude>
+				<latitude>-8.8171169</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.1905212,-8.8171169,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Inerie</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_65</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,227 m Gunung Inerie, Warupele I, Aimere, Ngada, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>120.95442</longitude>
+				<latitude>-8.878069999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.95442,-8.878069999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Inielika</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_66</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Inielika, Nabelena, North Bajawa, Ngada, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>120.98,-8.73,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ranakah</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_67</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Ranakah, Ranaka, Wae Rii, Manggarai, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>120.516667,-8.633333,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Poco Leok</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_68</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Poco Leok, Rondo Woing, Borong, East Manggarai, Nusa Tenggara Timur, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>120.48,-8.68,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Poco Ngandonalu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_69</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,367 m Poco Ngandonalu, Papang, Satarmese, Manggarai, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>120.447987</longitude>
+				<latitude>-8.651713000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.447987,-8.651713000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Curunumbeng</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_70</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,988 m Gunung Curunumbeng, Lia, West Satarmese, Manggarai, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>120.3271225</longitude>
+				<latitude>-8.717248228000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.3271225,-8.717248228000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Mules</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_71</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 549 m Nusa Tenggara Timur</description>
+			<LookAt>
+				<longitude>120.270207</longitude>
+				<latitude>-8.897429000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.270207,-8.897429000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Mbeliling</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_72</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,258 m Nusa Tenggara Timur</description>
+			<LookAt>
+				<longitude>119.978254</longitude>
+				<latitude>-8.612591</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.978254,-8.612591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Doro Ora</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_73</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 735 m Golo Ora, Komodo National Park, Pasir Panjang, Komodo, West Manggarai, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>119.681597</longitude>
+				<latitude>-8.765044</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.681597,-8.765044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Ara</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_74</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 824 m Nusa Tenggara Timur</description>
+			<LookAt>
+				<longitude>119.4475089</longitude>
+				<latitude>-8.565097059999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>119.4475089,-8.565097059999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Wanggameti</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_75</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,225 m Wanggameti, Matawai La Pawu, East Sumba, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>120.236373</longitude>
+				<latitude>-10.116348</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.236373,-10.116348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Keli Lepembusu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_76</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,754 m Keli Lepembusu, Mukureku, Lepembusu Kelisoke, Ende, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>121.811066</longitude>
+				<latitude>-8.672732999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.811066,-8.672732999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pulau Besar</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_77</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 919 m Pulau Besar, Kojadoi, East Alok, Sikka, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>122.369761</longitude>
+				<latitude>-8.462778</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>122.369761,-8.462778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batu Tara</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_78</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 748 m Komba Island, Indonesia</description>
+			<LookAt>
+				<longitude>123.585215</longitude>
+				<latitude>-7.790701</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>123.585215,-7.790701000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Iya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_79</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 637 m Iya, Kel. Tanjung, South Ende, Ende, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>121.641193</longitude>
+				<latitude>-8.891279000000001</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.641193,-8.891279000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Poco Ranakah</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_80</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,292 m Poco Ranaka, Golo Lobos, Poco Ranaka, East Manggarai, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>120.531034</longitude>
+				<latitude>-8.636623999999999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>120.531034,-8.636623999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kelimutu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_81</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,647 m Kelimutu, Taman Nasional Kelimutu, Woloara, Kelimutu, Ende, Nusa Tenggara Timur, Indonesia</description>
+			<LookAt>
+				<longitude>121.8123036</longitude>
+				<latitude>-8.76436112</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>121.8123036,-8.76436112,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

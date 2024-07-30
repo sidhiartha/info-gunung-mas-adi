@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SumatraBarat.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Sumatra Barat</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Malintang</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_345</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,994 m Gunung Malintang, Ujuang Gadiang, Lembah Malintang, West Pasaman, West Sumatra 26572, Indonesia</description>
+			<LookAt>
+				<longitude>99.651475</longitude>
+				<latitude>0.477422</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.651475,0.477422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Hijau</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_346</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,272 m Gunung Hijau, Muaro Sei Lolo, South Mapat Tunggul, Pasaman, West Sumatra 26353, Indonesia</description>
+			<LookAt>
+				<longitude>100.2275502</longitude>
+				<latitude>0.153262404</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>100.2275502,0.153262404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Talakmau</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_347</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,919 m Mt Talakmau, Malampah, Tigo Nagari, Pasaman, West Sumatra 26318, Indonesia</description>
+			<LookAt>
+				<longitude>99.983912</longitude>
+				<latitude>0.078864</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>99.98391200000002,0.078864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Tandikat</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_348</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Tandikat, Singgalang, Sepuluh Koto, Tanah Datar, West Sumatra 26161, Indonesia</description>
+			<styleUrl>#Gunung</styleUrl>
+				<Point>
+					<coordinates>100.317,-0.4330000000000001,0</coordinates>
+				</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Singgalang</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_349</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,877 m Mt Singgalang, Balingka, Iv Koto, Agam, West Sumatra 26161, Indonesia</description>
+			<LookAt>
+				<longitude>100.3308135</longitude>
+				<latitude>-0.389989451</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>100.3308135,-0.389989451,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sago</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_350</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,271 m Mt Sago, Batu Bulek, North Lintau Buo, Tanah Datar, West Sumatra 27292, Indonesia</description>
+			<LookAt>
+				<longitude>100.67319</longitude>
+				<latitude>-0.324129</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>100.67319,-0.324129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Marapi</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_351</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,891 m Marapi, Bukik Batabuah, Canduang, Agam, West Sumatra 26191, Indonesia</description>
+			<LookAt>
+				<longitude>100.47357</longitude>
+				<latitude>-0.38039</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>100.47357,-0.38039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Talang</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_352</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,597 m Mt Talang, Aia Batumbuak, Gunung Talang, Solok, West Sumatra 27365, Indonesia</description>
+			<LookAt>
+				<longitude>100.68163</longitude>
+				<latitude>-0.978874</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>100.68163,-0.978874,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pantaicermin</name>
+			ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_353</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,690 m Pantai Cermin, Solok, West Sumatra, Indonesia</description>
+			<LookAt>
+				<longitude>100.8017321</longitude>
+				<latitude>-1.278288294</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>100.8017321,-1.278288294,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

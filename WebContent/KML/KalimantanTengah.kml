@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KalimantanTengah.kml</name>
+	<StyleMap id="Gunung">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_vol</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_vol</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+	<Style id="sh_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_vol">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>images/GunungD2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Kalimantan Tengah</name>
+		<open>1</open>
+		<Placemark>
+			<name>Gunung Puruk Sandukui</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_163</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,003 m Kalimantan Tengah</description>
+			<LookAt>
+				<longitude>113.623388</longitude>
+				<latitude>-0.490257</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.623388,-0.4902570000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Batikap</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_164</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,580 m Kalimantan Tengah</description>
+			<LookAt>
+				<longitude>113.428445</longitude>
+				<latitude>0.260823</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.428445,0.260823,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Liyang</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_165</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,720 m Gunung Liyang, Tumbang Tohan, Seribu Riam, Murung Raya, Central Kalimantan 73981, Indonesia</description>
+			<LookAt>
+				<longitude>113.700241</longitude>
+				<latitude>0.366635</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.700241,0.366635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Kanamu</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_166</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,578 m Kalimantan Tengah Gunung Kanamu, Tumbang Mahuroi, Damang Batu, Gunung MAS, Central Kalimantan 74455, Indonesia</description>
+			<LookAt>
+				<longitude>113.146867</longitude>
+				<latitude>-0.730706</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>113.146867,-0.730706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Sapathawung West</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_167</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,906 m Kalimantan Tengah</description>
+			<LookAt>
+				<longitude>114.1304252</longitude>
+				<latitude>0.445388164</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>114.1304252,0.445388164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Pemancung</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_168</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 1,552 m Kalimantan Tengah</description>
+			<LookAt>
+				<longitude>112.1754521</longitude>
+				<latitude>-0.725404508</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.1754521,-0.725404508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gunung Bukit Raya</name>
+			<ExtendedData>
+      			<Data name="pmId">
+        			<value>gn_169</value>
+      			</Data>
+      			</ExtendedData>
+			<open>1</open>
+			<description>Elevation: 2,300 m Kalimantan Tengah Bukit Raja, Sebaung, Marikit, Katingan, Central Kalimantan 74456, Indonesia</description>
+			<LookAt>
+				<longitude>112.688066</longitude>
+				<latitude>-0.659222</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000172133510793996</heading>
+				<tilt>0</tilt>
+				<range>10000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Gunung</styleUrl>
+			<Point>
+				<coordinates>112.688066,-0.659222,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
