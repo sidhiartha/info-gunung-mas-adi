@@ -113,14 +113,12 @@
         <!-- Projects-->
         <section class="projects-section bg-light mt-160" id="projects">
             <div class="container px-4 px-lg-8">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-12 col-lg-12" style="margin-top: -130px;">
                         <form class="search-field" id="search-field">
                             <!-- Email address input-->
-                            <div class="row input-group-newsletter">
+                            <div class="input-group-newsletter">
                                 <div class="col"><input class="form-control" id="keyword" name="keyword" type="text" placeholder="Pencarian..." aria-label="Pencarian..." data-sb-validations="required" /></div>
-                                <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit">Cari</button></div>
                             </div>
                             <div id="search-error" class="invalid-feedback mt-2" data-sb-feedback="keyword:required">An email is required.</div>
                             <!-- Submit success message-->
@@ -128,7 +126,7 @@
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
                             <div class="d-none" id="search-success">
-                                <div id="text-success" class="text-success"></div>
+                                <div id="text-success" class="text-black result-box overflow-scroll"></div>
                                 <div id="map_canvas"></div>
                             </div>
                             <!-- Submit error message-->
