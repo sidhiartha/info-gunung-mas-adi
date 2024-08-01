@@ -16,9 +16,9 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script type="text/javascript" src="js/lib/geoxml3.js"></script>
         <script type="text/javascript" src="js/lib/api_client.js"></script>
+        <script type="text/javascript" src="js/parser/kml_parser.js"></script>
         <script type="text/javascript" src="js/parser/api_response_parser.js"></script>
         <script>
-          let geoXml3
           window.onload = function() {
             let form = document.getElementById('search-field')
             form.addEventListener("submit", submitted)
@@ -48,45 +48,11 @@
           }
 
           async function initMap() {
-            const {Map} = await google.maps.importLibrary('maps')
-
-            let mapCanvas = document.getElementById("map_canvas")
-
-            let map = new Map(
-              mapCanvas,
-              {
-                center: { lat: -3.9896019053741445, lng: 118.24355803686623 },
-                zoom: 4,
-                zoomControl: true,
-                scrollwheel: false
-              }
-            )
-
-            mapCanvas.classList.add('col-12')
-            mapCanvas.style.aspectRatio = "1.8"
-
-            return map;
+            initMapHelper()
           }
 
-          async function loadKml(src, map) {
-            if (!geoXml3) {
-              const {InfoWindow} = await google.maps.importLibrary('maps')
-
-              infowindow = new InfoWindow({})
-
-              geoXml3 = new geoXML3.parser({
-                map: map,
-                infoWindow: infowindow,
-                singleInfoWindow: false,
-                afterParse: afterParse
-              })
-            }
-
-            geoXml3.parse(src)
-          }
-
-          function afterParse(doc) {
-            console.log('doc', doc)
+          async function loadKml(src) {
+            loadKmlHelper(src)
           }
         </script>
     </head>

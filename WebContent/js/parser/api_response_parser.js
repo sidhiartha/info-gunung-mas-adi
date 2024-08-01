@@ -15,7 +15,7 @@ async function parseSearchResponse(keyword, successComponents, errorComponents) 
   } else {
     successComponents.root.classList.remove('d-none')
     successComponents.message.innerHTML = response.output
-    const map = await successComponents.map.initMap()
+    await successComponents.map.initMap()
 
     const kmls = [...new Set(response.maps.myArrayList)]
     const pmIds = [...new Set(response.pm_id.myArrayList)]
@@ -25,7 +25,7 @@ async function parseSearchResponse(keyword, successComponents, errorComponents) 
 
     kmls.forEach(kml => {
       const kmlFile = kmlFullUrl(kml)
-      successComponents.map.loadKml(kmlFile, map)
+      successComponents.map.loadKml(kmlFile)
     })
   }
 }
