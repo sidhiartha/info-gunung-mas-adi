@@ -64,7 +64,7 @@
 					$( "#accordion" ).accordion({
 						heightStyle: "content"
 					});
-					
+
 					var kmlFiles = <%=maps%>;
 					if(kmlFiles == '' || kmlFiles == null) {
 						$('#content').html('');
@@ -108,7 +108,7 @@
 		</div>
 	</div>
 	<!-- end page -->
-	
+
 	<!-- start footer -->
 	<jsp:include page="footer.html"></jsp:include>
 	<!-- end footer -->
@@ -121,7 +121,7 @@
 		var pmId = remArraypmId(pmIdAll);
  		//alert("file kml yang di load : " + kml);
  		//alert("pmId yang di load : " + pmId);
-		
+
 		var highlightLineOptions = {
 			fillColor : "#FFFF00",
 			strokeColor : "#FF0000",
@@ -141,7 +141,7 @@
 			}
 			return new_kmlFiles;
 		}
-		
+
 		/*hapus pmid yang sama*/
 		function remArraypmId(pmIdAll) {
 			temp_pmIdAll = {};
@@ -371,9 +371,11 @@
 		}
 
 		function buildSideMark() {
-			var currentBounds = map.getBounds();
-			if (!currentBounds)
-				var currentBounds = new google.maps.LatLngBounds();
+			let currentBounds = map.getBounds();
+			if (!currentBounds) {
+				currentBounds = new google.maps.LatLngBounds();
+			}
+
 			if (geoXMLDoc) {
 				var sideMark = '<table id="mark_table">';
 				for (var j = 0; j < geoXMLDoc.length; j++) {
@@ -523,7 +525,7 @@
  										geoXMLDoc[j].placemarks[i].marker);
  								}
 								geoXMLDoc[j].placemarks[i].marker.setAnimation(google.maps.Animation.BOUNCE);
-							} 
+							}
  							else if (geoXMLDoc[j].placemarks[i].polyline) {
 								//alert(geoXMLDoc[j].placemarks[i].name);
 								var center = geoXMLDoc[j].placemarks[i].polyline

@@ -20,12 +20,7 @@ async function parseSearchResponse(keyword, successComponents, errorComponents) 
     const kmls = [...new Set(response.maps.myArrayList)]
     const pmIds = [...new Set(response.pm_id.myArrayList)]
 
-    console.log(`maps: ${kmls}`)
-    console.log(`pm_ids: ${pmIds}`)
-
-    kmls.forEach(kml => {
-      const kmlFile = kmlFullUrl(kml)
-      successComponents.map.loadKml(kmlFile)
-    })
+    const fullKmls = kmls.map(kml => kmlFullUrl(kml))
+    successComponents.map.loadKml(fullKmls, pmIds)
   }
 }
