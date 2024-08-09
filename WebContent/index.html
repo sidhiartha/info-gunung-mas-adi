@@ -93,22 +93,24 @@
                             <!-- has successfully submitted-->
                             <div class="d-none border border-1 border-black rounded-2 my-2 p-2 shadow" id="search-success">
                                 <div id="text-success" class="text-black result-box overflow-scroll mb-2"></div>
-                                <div class="row">
+                                <div class="row align-items-start">
+                                    <div id="sidebar" class="col-3">
+                                        <div class="overflow-scroll" style="aspect-ratio: 1 / 1.8;">
+                                            <div class="mb-4">
+                                                <h2>Legenda</h2>
+                                                <div id="side-legend"></div>
+                                            </div>
+                                            <div>
+                                                <div class="row align-baseline">
+                                                    <h2>Detail</h2>
+                                                    <a href="javascript:kmlShowAll();" id="show_all">(show all)</a>
+                                                </div>
+                                                <div id="side-mark"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-9">
                                         <div id="map_canvas"></div>
-                                    </div>
-                                    <div id="sidebar" class="col-3">
-                                        <div class="mb-4">
-                                            <h2>Legenda</h2>
-                                            <div id="side-legend"></div>
-                                        </div>
-                                        <div>
-                                            <div class="row align-baseline">
-                                                <h2>Detail</h2>
-                                                <a href="javascript:kmlShowAll();" id="show_all">(show all)</a>
-                                            </div>
-                                            <div id="side-mark"></div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

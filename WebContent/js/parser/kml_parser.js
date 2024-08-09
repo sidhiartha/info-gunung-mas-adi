@@ -16,19 +16,39 @@ async function initMapHelper() {
 
   let mapCanvas = document.getElementById('map_canvas')
 
-  map = new Map(
-    mapCanvas,
-    {
-      center: {lat: -3.9896019053741445, lng: 118.24355803686623},
-      zoom: 4,
-      zoomControl: true,
-      scrollwheel: false,
-      mapId: 'de23be82e426640f',
-    },
-  )
+  if (!map) {
+    map = new Map(
+      mapCanvas,
+      {
+        center: {lat: -3.9896019053741445, lng: 118.24355803686623},
+        zoom: 4,
+        zoomControl: true,
+        scrollwheel: false,
+        mapId: 'de23be82e426640f',
+      },
+    )
 
-  mapCanvas.classList.add('col-12')
-  mapCanvas.style.aspectRatio = '1.8'
+    mapCanvas.classList.add('col-12')
+    mapCanvas.style.aspectRatio = '1.8'
+  } else {
+    cleanMap()
+  }
+}
+
+function cleanMap() {
+  if (!geoXmlDoc) {
+    return
+  }
+
+  for (let j = 0; j < geoXmlDoc.length; j++) {
+    for (let i = 0; i < geoXmlDoc[j].placemarks.length; i++) {
+      if (geoXmlDoc[j].placemarks[i].polyline)
+        geoXmlDoc[j].placemarks[i].polyline.setMap(null)
+      else
+        geoXmlDoc[j].placemarks[i].marker.setMap(null)
+    }
+  }
+  infoWindow.close()
 }
 
 async function loadKmlHelper(kmls, _pmIds) {
@@ -338,6 +358,7 @@ function hide(category) {
 }
 
 function cekPm(pmId) {
+  console.log(`pmId ${pmId.length}`)
   if (pmId.length === 1) {
     singleExt(pmId)
   } else if (pmId.length > 1) {
@@ -347,9 +368,13 @@ function cekPm(pmId) {
 
 /* fungsi single pm */
 function singleExt(pm) {
+  console.log(`geoXmlDoc ${geoXmlDoc.length}`)
   for (let j = 0; j < geoXmlDoc.length; j++) {
     for (let i = 0; i < geoXmlDoc[j].placemarks.length; i++) {
+      console.log(`pm ${pm}`)
+      console.log(`geoXmlDoc pmId ${geoXmlDoc[j].placemarks[i].extdata['pmId']}`)
       if (pm === geoXmlDoc[j].placemarks[i].extdata['pmId']) {
+        console.log(`marker or ${geoXmlDoc[j].placemarks[i].marker}`)
         //alert(geoXmlDoc[j].placemarks[i].name)
         if (geoXmlDoc[j].placemarks[i].marker) {
           //alert(geoXmlDoc[j].placemarks[i].name)
@@ -376,6 +401,7 @@ function singleExt(pm) {
           infoWindow.open(map,
             geoXmlDoc[j].placemarks[i].marker)
           geoXmlDoc[j].placemarks[i].marker.setAnimation(google.maps.Animation.BOUNCE)
+          console.log('bouncing 1')
         } else if (geoXmlDoc[j].placemarks[i].polyline) {
           //alert(geoXmlDoc[j].placemarks[i].name)
           let center = geoXmlDoc[j].placemarks[i].polyline
@@ -416,8 +442,9 @@ function multiExt(pm) {
                 geoXmlDoc[j].placemarks[i].marker)
             }
             geoXmlDoc[j].placemarks[i].marker.setAnimation(google.maps.Animation.BOUNCE)
+            console.log('bouncing 2')
           } else if (geoXmlDoc[j].placemarks[i].polyline) {
-
+            console.log('not bouncing 2')
           }
         }
       }
