@@ -92,7 +92,7 @@ public class Token extends HttpServlet {
             return;
         }
 
-        List<OntoBahasa> resolusi = new ArrayList<OntoBahasa>();
+        List<OntoBahasa> resolusi = new ArrayList();
 
         // jika input valid cek bahasa
         boolean sitaksValid = preprocessor.cekSinstaksis(resolusi);
@@ -183,20 +183,20 @@ public class Token extends HttpServlet {
     }
 
     List<String> getStringPmId(List<List<OutputType>> source) {
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
 
         for (List<OutputType> sublist : source) {
             for (OutputType outputType : sublist) {
-                if (!outputType.oIdJson.equals("")) {
+                if (!outputType.oIdJson.equals("") && !result.contains(outputType.oIdJson)) {
                     result.add(outputType.oIdJson);
                 }
-                if (!outputType.jIdJson.equals("")) {
+                if (!outputType.jIdJson.equals("") && !result.contains(outputType.jIdJson)) {
                     result.add(outputType.jIdJson);
                 }
-                if (!outputType.gIdJson.equals("")) {
+                if (!outputType.gIdJson.equals("") && !result.contains(outputType.gIdJson)) {
                     result.add(outputType.gIdJson);
                 }
-                if (!outputType.pmIdJson.equals("")) {
+                if (!outputType.pmIdJson.equals("") && !result.contains(outputType.pmIdJson)) {
                     result.add(outputType.pmIdJson);
                 }
             }
@@ -205,20 +205,20 @@ public class Token extends HttpServlet {
     }
 
     List<String> getStringMaps(List<List<OutputType>> source) {
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
 
         for (List<OutputType> sublist : source) {
             for (OutputType outputType : sublist) {
-                if (!outputType.OmapJson.equals("")) {
+                if (!outputType.OmapJson.equals("") && !result.contains(outputType.OmapJson)) {
                     result.add(outputType.OmapJson);
                 }
-                if (!outputType.JmapJson.equals("")) {
+                if (!outputType.JmapJson.equals("") && !result.contains(outputType.JmapJson)) {
                     result.add(outputType.JmapJson);
                 }
-                if (!outputType.mapJson.equals("")) {
+                if (!outputType.mapJson.equals("") && !result.contains(outputType.mapJson)) {
                     result.add(outputType.mapJson);
                 }
-                if (!outputType.GmapJson.equals("")) {
+                if (!outputType.GmapJson.equals("") && !result.contains(outputType.GmapJson)) {
                     result.add(outputType.GmapJson);
                 }
             }

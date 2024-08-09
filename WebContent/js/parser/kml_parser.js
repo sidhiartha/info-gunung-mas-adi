@@ -2,7 +2,7 @@ let map
 let infoWindow
 let geoXmlDoc
 let pmIds
-let categories = []
+let categories
 
 let highlightLineOptions = {
   fillColor: '#FFFF00',
@@ -113,6 +113,7 @@ function highlightPoly(poly, kml, placemark) {
 
 function buildMapSidebar() {
   if (geoXmlDoc) {
+    categories = []
     buildSideMark()
     buildLegend()
   }
