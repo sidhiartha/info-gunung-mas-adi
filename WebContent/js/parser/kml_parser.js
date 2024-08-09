@@ -1,5 +1,4 @@
 let map
-let infoWindow
 let geoXmlDoc
 let pmIds
 let categories
@@ -48,14 +47,13 @@ function cleanMap() {
         geoXmlDoc[j].placemarks[i].marker.setMap(null)
     }
   }
-  infoWindow.close()
 }
 
 async function loadKmlHelper(kmls, _pmIds) {
   pmIds = _pmIds
   const {InfoWindow} = await google.maps.importLibrary('maps')
 
-  infoWindow = new InfoWindow({})
+  let infoWindow = new InfoWindow({})
 
   let geoXml3 = new geoXML3.parser({
     map: map,
@@ -180,12 +178,14 @@ function kmlUnHighlightPoly(kml, placemark) {
     .setOptions(geoXmlDoc[kml].placemarks[placemark].polyline.normalStyle)
 }
 
-function kmlClick(kml, placemark) {
+async function kmlClick(kml, placemark) {
+  const {InfoWindow} = await google.maps.importLibrary('maps')
+
   if (geoXmlDoc[kml].placemarks[placemark].polyline) {
     let center = geoXmlDoc[kml].placemarks[placemark].polyline
       .getPath().getArray()
     let n = Math.round((center.length / 2))
-    infoWindow.setContent('<div><strong>'
+    let content = '<div><strong>'
       + geoXmlDoc[kml].placemarks[placemark].name
       + '</strong><br><br><strong>' + 'Estimasi Jarak : '
       + '</strong>'
@@ -193,33 +193,47 @@ function kmlClick(kml, placemark) {
       + ' meter' + '<br><strong><br>' + 'Keterangan : '
       + '</strong>'
       + geoXmlDoc[kml].placemarks[placemark].description
-      + '</div>')
+      + '</div>'
+
+    let infoWindow = new InfoWindow({
+      content,
+      ariaLabel: geoXmlDoc[kml].placemarks[placemark].name,
+    })
+
     infoWindow.setPosition(center[n])
-    infoWindow.open(map)
+    infoWindow.open({map})
   } else {
     geoXmlDoc[kml].placemarks[placemark].marker.setAnimation(google.maps.Animation.DROP)
     map.setCenter(geoXmlDoc[kml].placemarks[placemark].marker
       .getPosition())
-    infoWindow
-      .setContent('<div><strong>'
-        + geoXmlDoc[kml].placemarks[placemark].name
-        + '</strong><br><br><strong>'
-        + 'Koordinat (latitude, longitude) : '
-        + '</strong>'
-        + geoXmlDoc[kml].placemarks[placemark].latlng
-        + '<br><strong><br>'
-        + 'Ketinggian : '
-        + '</strong>'
-        + geoXmlDoc[kml].placemarks[placemark].Point.coordinates[0].alt
-        + ' mdpl'
-        + '<br><strong><br>'
-        + 'Keterangan : '
-        + '<br>'
-        + '</strong>'
-        + geoXmlDoc[kml].placemarks[placemark].description
-        + '</div>')
-    infoWindow.open(map,
-      geoXmlDoc[kml].placemarks[placemark].marker)
+
+    let content = '<div><strong>'
+      + geoXmlDoc[kml].placemarks[placemark].name
+      + '</strong><br><br><strong>'
+      + 'Koordinat (latitude, longitude) : '
+      + '</strong>'
+      + geoXmlDoc[kml].placemarks[placemark].latlng
+      + '<br><strong><br>'
+      + 'Ketinggian : '
+      + '</strong>'
+      + geoXmlDoc[kml].placemarks[placemark].Point.coordinates[0].alt
+      + ' mdpl'
+      + '<br><strong><br>'
+      + 'Keterangan : '
+      + '<br>'
+      + '</strong>'
+      + geoXmlDoc[kml].placemarks[placemark].description
+      + '</div>'
+
+    let infoWindow = new InfoWindow({
+      content,
+      ariaLabel: geoXmlDoc[kml].placemarks[placemark].name,
+    })
+
+    infoWindow.open({
+      map,
+      anchor: geoXmlDoc[kml].placemarks[placemark].marker
+    })
   }
 }
 
@@ -359,56 +373,58 @@ function hide(category) {
 }
 
 function cekPm(pmId) {
-  console.log(`pmId ${pmId.length}`)
   if (pmId.length === 1) {
-    singleExt(pmId)
+    singleExt(pmId[0])
   } else if (pmId.length > 1) {
     multiExt(pmId)
   }
 }
 
 /* fungsi single pm */
-function singleExt(pm) {
-  console.log(`geoXmlDoc ${geoXmlDoc.length}`)
+async function singleExt(pm) {
+  const {InfoWindow} = await google.maps.importLibrary('maps')
+
   for (let j = 0; j < geoXmlDoc.length; j++) {
     for (let i = 0; i < geoXmlDoc[j].placemarks.length; i++) {
-      console.log(`pm ${pm}`)
-      console.log(`geoXmlDoc pmId ${geoXmlDoc[j].placemarks[i].extdata['pmId']}`)
       if (pm === geoXmlDoc[j].placemarks[i].extdata['pmId']) {
-        console.log(`marker or ${geoXmlDoc[j].placemarks[i].marker}`)
-        //alert(geoXmlDoc[j].placemarks[i].name)
         if (geoXmlDoc[j].placemarks[i].marker) {
-          //alert(geoXmlDoc[j].placemarks[i].name)
-          map.setCenter(geoXmlDoc[j].placemarks[i].marker
-            .getPosition())
-          infoWindow
-            .setContent('<div><strong>'
-              + geoXmlDoc[j].placemarks[i].name
-              + '</strong><br><br><strong>'
-              + 'Koordinat (latitude, longitude) : '
-              + '</strong>'
-              + geoXmlDoc[j].placemarks[i].latlng
-              + '<br><strong><br>'
-              + 'Ketinggian : '
-              + '</strong>'
-              + geoXmlDoc[j].placemarks[i].Point.coordinates[0].alt
-              + ' mdpl'
-              + '<br><strong><br>'
-              + 'Keterangan : '
-              + '<br>'
-              + '</strong>'
-              + geoXmlDoc[j].placemarks[i].description
-              + '</div>')
-          infoWindow.open(map,
-            geoXmlDoc[j].placemarks[i].marker)
+          map.setCenter(geoXmlDoc[j].placemarks[i].marker.getPosition())
+
+          let content = '<div><strong>'
+            + geoXmlDoc[j].placemarks[i].name
+            + '</strong><br><br><strong>'
+            + 'Koordinat (latitude, longitude) : '
+            + '</strong>'
+            + geoXmlDoc[j].placemarks[i].latlng
+            + '<br><strong><br>'
+            + 'Ketinggian : '
+            + '</strong>'
+            + geoXmlDoc[j].placemarks[i].Point.coordinates[0].alt
+            + ' mdpl'
+            + '<br><strong><br>'
+            + 'Keterangan : '
+            + '<br>'
+            + '</strong>'
+            + geoXmlDoc[j].placemarks[i].description
+            + '</div>'
+
+          let infoWindow = new InfoWindow({
+            content,
+            ariaLabel: geoXmlDoc[j].placemarks[i].name,
+          })
+
+          infoWindow.open({
+            map,
+            anchor: geoXmlDoc[j].placemarks[i].marker
+          })
           geoXmlDoc[j].placemarks[i].marker.setAnimation(google.maps.Animation.BOUNCE)
-          console.log('bouncing 1')
         } else if (geoXmlDoc[j].placemarks[i].polyline) {
           //alert(geoXmlDoc[j].placemarks[i].name)
           let center = geoXmlDoc[j].placemarks[i].polyline
             .getPath().getArray()
           let n = Math.round((center.length / 2))
-          infoWindow.setContent('<div><strong>'
+
+          let content = '<div><strong>'
             + geoXmlDoc[j].placemarks[i].name
             + '</strong><br><br><strong>' + 'Estimasi panjang jalur : '
             + '</strong>'
@@ -416,9 +432,15 @@ function singleExt(pm) {
             + ' meter' + '<br><strong><br>'
             + 'Keterangan : ' + '</strong>'
             + geoXmlDoc[j].placemarks[i].description
-            + '</div>')
+            + '</div>'
+
+          let infoWindow = new InfoWindow({
+            content,
+            ariaLabel: geoXmlDoc[j].placemarks[i].name,
+          })
+
           infoWindow.setPosition(center[n])
-          infoWindow.open(map)
+          infoWindow.open({map})
         }
       }
     }
@@ -426,26 +448,33 @@ function singleExt(pm) {
 }
 
 /* fungsi multiple pm */
-function multiExt(pm) {
+async function multiExt(pm) {
+  const {InfoWindow} = await google.maps.importLibrary('maps')
+
   for (let k = 0; k < pm.length; k++) {
     let tp = pm[k]
     for (let j = 0; j < geoXmlDoc.length; j++) {
       for (let i = 0; i < geoXmlDoc[j].placemarks.length; i++) {
         if (tp === geoXmlDoc[j].placemarks[i].extdata['pmId']) {
           if (geoXmlDoc[j].placemarks[i].marker) {
-            //map.setCenter(geoXmlDoc[j].placemarks[i].marker.getPosition())
             if (pm.length < 3) {
-              infoWindow = new google.maps.InfoWindow({})
-              infoWindow.setContent('<div><strong>'
+              let content = '<div><strong>'
                 + geoXmlDoc[j].placemarks[i].name
-                + '</strong> </div>')
-              infoWindow.open(map,
-                geoXmlDoc[j].placemarks[i].marker)
+                + '</strong> </div>'
+
+              let infoWindow = new InfoWindow({
+                content,
+                ariaLabel: geoXmlDoc[j].placemarks[i].name,
+              })
+
+              infoWindow.open({
+                map,
+                anchor: geoXmlDoc[j].placemarks[i].marker
+              })
             }
             geoXmlDoc[j].placemarks[i].marker.setAnimation(google.maps.Animation.BOUNCE)
-            console.log('bouncing 2')
           } else if (geoXmlDoc[j].placemarks[i].polyline) {
-            console.log('not bouncing 2')
+            // what if polyline?
           }
         }
       }
